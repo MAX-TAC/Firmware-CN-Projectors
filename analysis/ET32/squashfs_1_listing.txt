@@ -1,0 +1,80 @@
+drwxr-xr-x root/root               172 2025-03-07 10:31 squashfs-root
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/Arm_Mali
+drwxr-xr-x root/root                49 2025-03-07 10:31 squashfs-root/bin
+-rwxr-xr-x root/root              7972 2025-03-07 10:31 squashfs-root/bin/sntp
+drwxr-xr-x root/root               237 2025-01-20 08:22 squashfs-root/bin/wpa_supplicant
+-rwxr-xr-x root/root              2321 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/Makefile
+-rwxr-xr-x root/root               853 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/check_supplicant_ready.sh
+drwxr-xr-x root/root               149 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common
+-rwxr-xr-x root/root            517096 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/hostapd
+-rwxr-xr-x root/root             34960 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/iwconfig
+-rwxr-xr-x root/root             39112 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/iwlist
+-rwxr-xr-x root/root             26756 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/iwpriv
+-rwxr-xr-x root/root             22864 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/libiw.so.28
+-rwxr-xr-x root/root             26748 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/libiw.so.29
+-rwxr-xr-x root/root             66052 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/wpa_cli
+-rwxr-xr-x root/root           1065372 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/common/wpa_supplicant
+-rwxr-xr-x root/root              2447 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/connect_wifi.sh
+drwxr-xr-x root/root                85 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/dhcpd
+-rwxr-xr-x root/root            719024 2025-03-07 10:31 squashfs-root/bin/wpa_supplicant/dhcpd/dhcpd
+-rwxr-xr-x root/root               922 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/dhcpd/dhcpd.conf
+-rwxr-xr-x root/root                 0 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/dhcpd/dhcpd.leases
+-rwxr-xr-x root/root                96 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/dhcpd/kill.script
+-rwxr-xr-x root/root               420 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/p2p_cfg80211.conf
+-rwxr-xr-x root/root              6582 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/p2p_concurrent_start.sh
+-rwxr-xr-x root/root               331 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/p2p_wext.conf
+-rwxr-xr-x root/root               299 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/wpa_cfg80211.conf
+-rwxr-xr-x root/root                48 2025-03-07 10:24 squashfs-root/bin/wpa_supplicant/wpa_wext.conf
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/dolby_audio
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/intertrust_marlin
+drwxr-xr-x root/root               943 2025-03-07 10:31 squashfs-root/lib
+-rwxr-xr-x root/root             29904 2025-03-07 10:31 squashfs-root/lib/libcJSON.so
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/lib/libicu-le-hb.so.0 -> libicu-le-hb.so.0.0.0
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/lib/libicu-le-hb.so.0.0 -> libicu-le-hb.so.0.0.0
+-rwxr-xr-x root/root             42332 2025-03-07 10:31 squashfs-root/lib/libicu-le-hb.so.0.0.0
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/lib/libicudata.so -> libicudata.so.59.1
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/lib/libicudata.so.59 -> libicudata.so.59.1
+-rwxr-xr-x root/root          26292748 2025-03-07 10:31 squashfs-root/lib/libicudata.so.59.1
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/lib/libicui18n.so -> libicui18n.so.59.1
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/lib/libicui18n.so.59 -> libicui18n.so.59.1
+-rwxr-xr-x root/root           2055940 2025-03-07 10:31 squashfs-root/lib/libicui18n.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicuio.so -> libicuio.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicuio.so.59 -> libicuio.so.59.1
+-rwxr-xr-x root/root             37320 2025-03-07 10:31 squashfs-root/lib/libicuio.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicule.so -> libicule.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicule.so.59 -> libicule.so.59.1
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/lib/libicule.so.59.1 -> libicu-le-hb.so.0.0.0
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libiculx.so -> libiculx.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libiculx.so.59 -> libiculx.so.59.1
+-rwxr-xr-x root/root             34140 2025-03-07 10:31 squashfs-root/lib/libiculx.so.59.1
+-rwxr-xr-x root/root             52500 2025-03-07 10:31 squashfs-root/lib/libicutest.so.59.1
+-rwxr-xr-x root/root            160692 2025-03-07 10:31 squashfs-root/lib/libicutu.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicuuc.so -> libicuuc.so.59.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libicuuc.so.59 -> libicuuc.so.59.1
+-rwxr-xr-x root/root           1407568 2025-03-07 10:31 squashfs-root/lib/libicuuc.so.59.1
+-rwxr-xr-x root/root           6922004 2025-03-07 10:31 squashfs-root/lib/libmarlin.so
+-rwxr-xr-x root/root             33988 2025-03-07 10:31 squashfs-root/lib/libmtk_hw_decrypt.so
+-rwxr-xr-x root/root           1425940 2025-03-07 10:31 squashfs-root/lib/libmtkdash.so
+lrwxrwxrwx root/root                19 2025-03-07 10:24 squashfs-root/lib/libnl-3.so -> libnl-3.so.200.25.0
+lrwxrwxrwx root/root                19 2025-03-07 10:24 squashfs-root/lib/libnl-3.so.200 -> libnl-3.so.200.25.0
+-rwxr-xr-x root/root            101628 2025-03-07 10:31 squashfs-root/lib/libnl-3.so.200.25.0
+lrwxrwxrwx root/root                24 2025-03-07 10:24 squashfs-root/lib/libnl-genl-3.so -> libnl-genl-3.so.200.25.0
+lrwxrwxrwx root/root                24 2025-03-07 10:24 squashfs-root/lib/libnl-genl-3.so.200 -> libnl-genl-3.so.200.25.0
+-rwxr-xr-x root/root             16264 2025-03-07 10:31 squashfs-root/lib/libnl-genl-3.so.200.25.0
+-rwxr-xr-x root/root             26530 2025-03-07 10:24 squashfs-root/lib/libnl_NOTICE.txt
+-rwxr-xr-x root/root            870012 2025-03-07 10:24 squashfs-root/lib/libpugixml.so
+-rwxr-xr-x root/root             50424 2025-03-07 10:31 squashfs-root/lib/liburiparser.so.1
+-rwxr-xr-x root/root           3130844 2025-03-07 10:31 squashfs-root/lib/libxerces-c-3.1.so
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libxml2.so -> libxml2.so.2.9.7
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/lib/libxml2.so.2 -> libxml2.so.2.9.7
+-rwxr-xr-x root/root           1470680 2025-03-07 10:24 squashfs-root/lib/libxml2.so.2.9.7
+drwxr-xr-x root/root                40 2025-03-07 10:31 squashfs-root/mpeg_dash
+-rwxr-xr-x root/root            276772 2025-03-07 10:31 squashfs-root/mpeg_dash/libmpdparser.so.1
+drwxr-xr-x root/root                33 2025-03-07 10:31 squashfs-root/mss
+-rwxr-xr-x root/root           2255256 2025-03-07 10:31 squashfs-root/mss/libSSPK.so
+drwxr-xr-x root/root                 3 2025-03-07 10:24 squashfs-root/mtk_util
+lrwxrwxrwx root/root                15 2025-03-07 10:31 squashfs-root/upgrade -> /3rd_rw/upgrade
+drwxr-xr-x root/root                97 2025-03-07 10:31 squashfs-root/widevine
+-rwxr-xr-x root/root               399 2025-03-07 10:31 squashfs-root/widevine/3rd_rw_list.txt
+-rwxr-xr-x root/root             49268 2025-03-07 10:31 squashfs-root/widevine/libWVPlaybackAPI.so
+-rwxr-xr-x root/root           1792248 2025-03-07 10:31 squashfs-root/widevine/libWVStreamControlAPI.so

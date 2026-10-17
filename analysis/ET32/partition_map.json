@@ -1,0 +1,391 @@
+[
+  {
+    "offset": 16384,
+    "length": 191344,
+    "label": "sboot",
+    "write_target": "",
+    "magic": "aa5e3fdad01ddf4afafe67a1b53bbb8b"
+  },
+  {
+    "offset": 208896,
+    "length": 3203072,
+    "label": "mboot",
+    "write_target": "MBOOT",
+    "magic": "002400000000402770ba702770de3000"
+  },
+  {
+    "offset": 3416064,
+    "length": 8388608,
+    "label": "mboot",
+    "write_target": "tvcertificate",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 11808768,
+    "length": 33554432,
+    "label": "tvconfig",
+    "write_target": "tvconfig",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 45367296,
+    "length": 21680128,
+    "label": "recovery",
+    "write_target": "recovery",
+    "magic": "414e44524f49442160aed80000802020",
+    "image": "Android boot image"
+  },
+  {
+    "offset": 67051520,
+    "length": 14202880,
+    "label": "boot",
+    "write_target": "boot",
+    "magic": "414e44524f49442160aed80000802020",
+    "image": "Android boot image"
+  },
+  {
+    "offset": 81256448,
+    "length": 1980912,
+    "label": "optee",
+    "write_target": "optee",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 83238912,
+    "length": 58464,
+    "label": "optee",
+    "write_target": "armfw",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 83300352,
+    "length": 65536,
+    "label": "optee",
+    "write_target": "RTPM",
+    "magic": "0228fa0240d800000000000247310000"
+  },
+  {
+    "offset": 83369984,
+    "length": 21357,
+    "label": "dtb",
+    "write_target": "dtb",
+    "magic": "d00dfeed0000536d0000003800004dec",
+    "image": "device tree blob"
+  },
+  {
+    "offset": 83394560,
+    "length": 577552,
+    "label": "dtb",
+    "write_target": "frc",
+    "magic": "75a000901018740af0902ba0e4f0902e"
+  },
+  {
+    "offset": 83976192,
+    "length": 26456064,
+    "label": "linux_rootfs_a",
+    "write_target": "linux_rootfs_a",
+    "magic": "6873717394040000f8ccca6700000200",
+    "filesystem": "squashfs"
+  },
+  {
+    "offset": 110436352,
+    "length": 21757952,
+    "label": "linux_rootfs_a",
+    "write_target": "",
+    "magic": "68737173500000000acbca6700000200",
+    "filesystem": "squashfs"
+  },
+  {
+    "offset": 132198400,
+    "length": 31457280,
+    "label": "linux_rootfs_a",
+    "write_target": "",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 163659776,
+    "length": 157115308,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 943,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 320778240,
+    "length": 157283180,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 61,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 478064640,
+    "length": 153671196,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 110,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 631738368,
+    "length": 157284440,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 151,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 789024768,
+    "length": 151716116,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 18,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 940744704,
+    "length": 157282676,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 25,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1098031104,
+    "length": 157282508,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 13,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1255317504,
+    "length": 154735624,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 72,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1410056192,
+    "length": 141440064,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 76,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1551499264,
+    "length": 154407244,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 22,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1705910272,
+    "length": 157283124,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 57,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 1863196672,
+    "length": 157282676,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 25,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 2020483072,
+    "length": 16703612,
+    "label": "system",
+    "write_target": "system",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 646144,
+      "total_chunks": 7,
+      "logical_bytes": 2646605824
+    }
+  },
+  {
+    "offset": 2037190656,
+    "length": 57540,
+    "label": "system",
+    "write_target": "cache",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 25600,
+      "total_chunks": 12,
+      "logical_bytes": 104857600
+    }
+  },
+  {
+    "offset": 2037252096,
+    "length": 157283280,
+    "label": "vendor",
+    "write_target": "vendor",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 89600,
+      "total_chunks": 68,
+      "logical_bytes": 367001600
+    }
+  },
+  {
+    "offset": 2194538496,
+    "length": 105730116,
+    "label": "vendor",
+    "write_target": "vendor",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 89600,
+      "total_chunks": 3,
+      "logical_bytes": 367001600
+    }
+  },
+  {
+    "offset": 2300272640,
+    "length": 146800640,
+    "label": "vendor",
+    "write_target": "tvservice",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 2447077376,
+    "length": 5242880,
+    "label": "vendor",
+    "write_target": "factory_a",
+    "magic": "00000000000000000000000000000000"
+  },
+  {
+    "offset": 2452324352,
+    "length": 1188260,
+    "label": "userdata",
+    "write_target": "userdata",
+    "magic": "3aff26ed010000001c000c0000100000",
+    "sparse": {
+      "version": "1.0",
+      "file_header_size": 28,
+      "chunk_header_size": 12,
+      "block_size": 4096,
+      "total_blocks": 1070592,
+      "total_chunks": 28,
+      "logical_bytes": 4385144832
+    }
+  }
+]

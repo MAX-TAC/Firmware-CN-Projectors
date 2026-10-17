@@ -1,0 +1,1172 @@
+drwxr-xr-x root/root               305 2025-03-07 10:20 squashfs-root
+drwxr-xr-x root/root                31 2025-03-07 10:20 squashfs-root/.smb
+-rwxr-xr-x root/root                53 2025-03-07 10:20 squashfs-root/.smb/smb.conf
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/3rd
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/3rd_rw
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/_3rd
+drwxr-xr-x root/root               974 2025-03-07 10:39 squashfs-root/basic
+drwxr-xr-x root/root               119 2025-03-07 10:31 squashfs-root/basic/3rd_ini
+drwxr-xr-x root/root                43 2025-03-07 10:31 squashfs-root/basic/3rd_ini/Arm_Mali
+-rwxr-xr-x root/root                55 2025-03-07 10:31 squashfs-root/basic/3rd_ini/Arm_Mali/global_env_setup.ini
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/basic/3rd_ini/dolby_audio
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/basic/3rd_ini/intertrust_marlin
+drwxr-xr-x root/root                 3 2025-03-07 10:31 squashfs-root/basic/3rd_ini/mpeg_dash
+drwxr-xr-x root/root                43 2025-03-07 10:31 squashfs-root/basic/3rd_ini/mss
+-rwxr-xr-x root/root                50 2025-03-07 10:31 squashfs-root/basic/3rd_ini/mss/global_env_setup.ini
+drwxr-xr-x root/root                43 2025-03-07 10:31 squashfs-root/basic/3rd_ini/widevine
+-rwxr-xr-x root/root                54 2025-03-07 10:31 squashfs-root/basic/3rd_ini/widevine/global_env_setup.ini
+-rwxr-xr-x root/root              7405 2025-03-07 10:31 squashfs-root/basic/autorun.sh
+drwxr-xr-x root/root               127 2025-03-07 10:39 squashfs-root/basic/bin
+-rwxr-xr-x root/root           1171584 2025-03-07 10:39 squashfs-root/basic/bin/aud_cpuenc
+-rwxr-xr-x root/root           1580680 2025-03-07 10:39 squashfs-root/basic/bin/aud_cpupost
+-rwxr-xr-x root/root            171824 2025-03-07 10:39 squashfs-root/basic/bin/e2fsck
+-rwxr-xr-x root/root             26524 2025-03-07 10:39 squashfs-root/basic/bin/mkdosfs
+-rwxr-xr-x root/root             58904 2025-03-07 10:39 squashfs-root/basic/bin/mke2fs
+-rwxr-xr-x root/root             12580 2025-03-07 10:39 squashfs-root/basic/bin/mtk_reboot
+-rwxr-xr-x root/root              9656 2025-03-07 10:39 squashfs-root/basic/bin/setmac
+-rw-r--r-- root/root              5438 2025-03-07 10:31 squashfs-root/basic/build.macro
+-rwxr-xr-x root/root              1056 2025-03-07 10:24 squashfs-root/basic/cJSON_NOTICE.txt
+-rwxr-xr-x root/root             18194 2025-03-07 10:24 squashfs-root/basic/dosfstools_NOTICE.txt
+-rwxr-xr-x root/root          10859652 2025-03-07 10:39 squashfs-root/basic/dtv_svc
+-rwxr-xr-x root/root               280 2025-03-07 10:31 squashfs-root/basic/dtv_svc.ini
+-rwxr-xr-x root/root             44568 2025-03-07 10:24 squashfs-root/basic/e2fsprogs_NOTICE.txt
+drwxr-xr-x root/root                36 2025-01-20 08:11 squashfs-root/basic/ept
+-rw-r--r-- root/root                 0 2025-03-07 10:24 squashfs-root/basic/ept/.ENDPOINT.PID
+-rwxr-xr-x root/root              1206 2025-03-07 10:24 squashfs-root/basic/expat_NOTICE.txt
+-rwxr-xr-x root/root               483 2025-03-07 10:24 squashfs-root/basic/fusion_NOTICE.txt
+-rwxr-xr-x root/root             18693 2025-03-07 10:24 squashfs-root/basic/kernel_NOTICE.txt
+-rwxr-xr-x root/root              4485 2025-03-07 10:31 squashfs-root/basic/keymap.ini
+-rwxr-xr-x root/root               390 2025-03-07 10:31 squashfs-root/basic/keymap_tv.ini
+drwxr-xr-x root/root              1612 2025-03-07 10:39 squashfs-root/basic/lib
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libEGL.so -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libEGL.so.1 -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libEGL.so.1.4 -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv1_CM.so -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv1_CM.so.1 -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv1_CM.so.1.1 -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv2.so -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv2.so.2 -> libMali.so
+lrwxrwxrwx root/root                10 2025-03-07 10:31 squashfs-root/basic/lib/libGLESv2.so.2.0 -> libMali.so
+-rwxr-xr-x root/root              5316 2025-03-07 10:31 squashfs-root/basic/lib/libM_bt.so
+-rwxr-xr-x root/root           1241596 2025-03-07 10:31 squashfs-root/basic/lib/libMali.so
+-rwxr-xr-x root/root             42280 2025-03-07 10:31 squashfs-root/basic/lib/libWVPlaybackAPI_dl.so
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libblkid.so -> libblkid.so.1.1.0
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x root/root            210196 2025-03-07 10:31 squashfs-root/basic/lib/libblkid.so.1.1.0
+-rwxr-xr-x root/root             29904 2025-03-07 10:31 squashfs-root/basic/lib/libcJSON.so
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libcares.so -> libcares.so.2.2.0
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libcares.so.2 -> libcares.so.2.2.0
+-rwxr-xr-x root/root             99636 2025-03-07 10:31 squashfs-root/basic/lib/libcares.so.2.2.0
+-rwxr-xr-x root/root             15304 2025-03-07 10:31 squashfs-root/basic/lib/libciplus.so
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/basic/lib/libcrypto.so -> libcrypto.so.1.0.0
+-rwxr-xr-x root/root           1598040 2025-03-07 10:31 squashfs-root/basic/lib/libcrypto.so.1.0.0
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/basic/lib/libcurl.so -> libcurl.so.4.5.0
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/basic/lib/libcurl.so.4 -> libcurl.so.4.5.0
+-rwxr-xr-x root/root            619952 2025-03-07 10:31 squashfs-root/basic/lib/libcurl.so.4.5.0
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libexpat.so -> libexpat.so.1.6.3
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libexpat.so.1 -> libexpat.so.1.6.3
+-rwxr-xr-x root/root            136540 2025-03-07 10:31 squashfs-root/basic/lib/libexpat.so.1.6.3
+-rwxr-xr-x root/root            304280 2025-03-07 10:31 squashfs-root/basic/lib/libfdisk.so.1.1.0
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/basic/lib/libfreetype.so -> libfreetype.so.6.14.0
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/basic/lib/libfreetype.so.6 -> libfreetype.so.6.14.0
+-rwxr-xr-x root/root            876568 2025-03-07 10:31 squashfs-root/basic/lib/libfreetype.so.6.14.0
+-rwxr-xr-x root/root             48576 2025-03-07 10:31 squashfs-root/basic/lib/libhbbtv_drm.so
+-rwxr-xr-x root/root            575460 2025-03-07 10:31 squashfs-root/basic/lib/libhttplive.so
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libjpeg.so -> libjpeg.so.62.0.0
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libjpeg.so.62 -> libjpeg.so.62.0.0
+-rwxr-xr-x root/root            182636 2025-03-07 10:31 squashfs-root/basic/lib/libjpeg.so.62.0.0
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libmng.so -> libmng.so.1.1.0.9
+lrwxrwxrwx root/root                17 2025-03-07 10:24 squashfs-root/basic/lib/libmng.so.1 -> libmng.so.1.1.0.9
+-rwxr-xr-x root/root            418652 2025-03-07 10:31 squashfs-root/basic/lib/libmng.so.1.1.0.9
+-rwxr-xr-x root/root            238800 2025-03-07 10:31 squashfs-root/basic/lib/libmount.so.1.1.0
+lrwxrwxrwx root/root                43 2025-03-07 10:31 squashfs-root/basic/lib/libmpdparser.so -> /mnt/vendor/3rd/mpeg_dash/libmpdparser.so.1
+-rwxr-xr-x root/root             33988 2025-03-07 10:31 squashfs-root/basic/lib/libmtk_hw_decrypt.so
+-rwxr-xr-x root/root            349596 2025-03-07 10:31 squashfs-root/basic/lib/libmtk_stream.so
+-rwxr-xr-x root/root             19976 2025-03-07 10:31 squashfs-root/basic/lib/libmtkdrm.so
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/basic/lib/libnghttp2.so -> libnghttp2.so.14.13.1
+lrwxrwxrwx root/root                21 2025-03-07 10:24 squashfs-root/basic/lib/libnghttp2.so.14 -> libnghttp2.so.14.13.1
+-rwxr-xr-x root/root            175648 2025-03-07 10:31 squashfs-root/basic/lib/libnghttp2.so.14.13.1
+lrwxrwxrwx root/root                11 2025-03-07 10:24 squashfs-root/basic/lib/libpng.so -> libpng12.so
+lrwxrwxrwx root/root                18 2025-03-07 10:24 squashfs-root/basic/lib/libpng.so.3 -> libpng.so.3.1.2.59
+-rwxr-xr-x root/root            501128 2025-03-07 10:24 squashfs-root/basic/lib/libpng.so.3.1.2.59
+lrwxrwxrwx root/root                20 2025-03-07 10:24 squashfs-root/basic/lib/libpng12.so -> libpng12.so.0.1.2.59
+lrwxrwxrwx root/root                20 2025-03-07 10:24 squashfs-root/basic/lib/libpng12.so.0 -> libpng12.so.0.1.2.59
+-rwxr-xr-x root/root            490648 2025-03-07 10:24 squashfs-root/basic/lib/libpng12.so.0.1.2.59
+-rwxr-xr-x root/root            870012 2025-03-07 10:24 squashfs-root/basic/lib/libpugixml.so
+-rwxr-xr-x root/root             21820 2025-03-07 10:31 squashfs-root/basic/lib/libsecurestorage.so
+-rwxr-xr-x root/root            118244 2025-03-07 10:31 squashfs-root/basic/lib/libsmartcols.so.1.1.0
+-rwxr-xr-x root/root            574848 2025-03-07 10:31 squashfs-root/basic/lib/libsmartfs.so
+-rwxr-xr-x root/root            458372 2025-03-07 10:31 squashfs-root/basic/lib/libsqlite_3_7_2.so
+lrwxrwxrwx root/root                15 2025-03-07 10:24 squashfs-root/basic/lib/libssl.so -> libssl.so.1.0.0
+-rwxr-xr-x root/root            343820 2025-03-07 10:31 squashfs-root/basic/lib/libssl.so.1.0.0
+lrwxrwxrwx root/root                37 2025-03-07 10:24 squashfs-root/basic/lib/liburiparser.so.1 -> /mnt/vendor/3rd/lib/liburiparser.so.1
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/basic/lib/libuuid.so -> libuuid.so.1.3.0
+lrwxrwxrwx root/root                16 2025-03-07 10:24 squashfs-root/basic/lib/libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x root/root             10964 2025-03-07 10:31 squashfs-root/basic/lib/libuuid.so.1.3.0
+-rwxr-xr-x root/root             83460 2025-03-07 10:31 squashfs-root/basic/lib/libwebvttparser.so
+lrwxrwxrwx root/root                38 2025-03-07 10:24 squashfs-root/basic/lib/libxerces-c-3.1.so -> /mnt/vendor/3rd/lib/libxerces-c-3.1.so
+lrwxrwxrwx root/root                13 2025-03-07 10:24 squashfs-root/basic/lib/libz.so -> libz.so.1.2.3
+lrwxrwxrwx root/root                13 2025-03-07 10:24 squashfs-root/basic/lib/libz.so.1 -> libz.so.1.2.3
+-rwxr-xr-x root/root             88548 2025-03-07 10:31 squashfs-root/basic/lib/libz.so.1.2.3
+-rwxr-xr-x root/root              9568 2025-03-07 10:39 squashfs-root/basic/lib/setmac
+-rwxr-xr-x root/root              5472 2025-03-07 10:39 squashfs-root/basic/lib/usb_path
+-rwxr-xr-x root/root             13752 2025-03-07 10:39 squashfs-root/basic/lib/xml
+-rwxr-xr-x root/root             90376 2025-01-20 08:25 squashfs-root/basic/libMtkRmClient.so
+-rwxr-xr-x root/root             34056 2025-03-07 10:24 squashfs-root/basic/libapp_client.so
+-rwxr-xr-x root/root            208236 2025-03-07 10:26 squashfs-root/basic/libapp_if.so
+-rwxr-xr-x root/root            722316 2025-03-07 10:26 squashfs-root/basic/libapp_if_rpc.so
+-rwxr-xr-x root/root             34056 2025-03-07 10:24 squashfs-root/basic/libapp_socket_client.so
+-rwxr-xr-x root/root             38204 2025-01-20 08:25 squashfs-root/basic/libarm_sig_tracer.so
+-rwxr-xr-x root/root            599620 2025-03-07 10:26 squashfs-root/basic/libcmpb.so
+-rwxr-xr-x root/root            292324 2025-03-07 10:26 squashfs-root/basic/libcmpb_pvr.so
+-rwxr-xr-x root/root           1677680 2025-03-07 10:26 squashfs-root/basic/libdtv_common.so
+-rwxr-xr-x root/root            259776 2025-03-07 10:25 squashfs-root/basic/libdtv_osai.so
+-rwxr-xr-x root/root             18476 2025-03-07 10:26 squashfs-root/basic/libdtv_system.so
+-rwxr-xr-x root/root              5408 2025-03-07 10:26 squashfs-root/basic/libhandle_app.so
+-rwxr-xr-x root/root            805976 2025-03-07 10:24 squashfs-root/basic/libmtal.so
+-rwxr-xr-x root/root              5504 2025-03-07 10:25 squashfs-root/basic/libmtal_custom.so
+-rwxr-xr-x root/root             18052 2025-03-07 10:39 squashfs-root/basic/libmtk_stream_rpc.so
+-rwxr-xr-x root/root           7459308 2025-03-07 10:28 squashfs-root/basic/libmtkapp.so
+-rwxr-xr-x root/root            410592 2025-03-07 10:25 squashfs-root/basic/libmw_if2.so
+-rwxr-xr-x root/root             34256 2025-01-20 08:25 squashfs-root/basic/libnetwork_detect.so
+-rwxr-xr-x root/root             46468 2025-03-07 10:24 squashfs-root/basic/librpc_ipc.so
+-rwxr-xr-x root/root             30080 2025-03-07 10:25 squashfs-root/basic/libusb_detect.so
+drwxr-xr-x root/root                51 2025-03-07 10:21 squashfs-root/basic/modules
+-rw-r--r-- root/root              7132 2025-03-07 10:21 squashfs-root/basic/modules/mtprealloc.ko
+-rw-r--r-- root/root           2393912 2025-03-07 10:21 squashfs-root/basic/modules/wlan.ko
+drwxr-xr-x root/root                35 2025-01-20 09:03 squashfs-root/basic/mtal
+-rwxr-xr-x root/root              5958 2025-03-07 10:39 squashfs-root/basic/mtal/mtal_test.sh
+-rwxr-xr-x root/root              6279 2025-03-07 10:24 squashfs-root/basic/openssl_NOTICE.txt
+-rwxr-xr-x root/root               301 2025-03-07 10:31 squashfs-root/basic/post_keymap.ini
+-rwxr-xr-x root/root               354 2025-03-07 10:31 squashfs-root/basic/skype.ini
+-rwxr-xr-x root/root             16398 2025-03-07 10:24 squashfs-root/basic/uboot_NOTICE.txt
+drwxr-xr-x root/root                 3 2025-01-20 08:11 squashfs-root/basic/upgrade
+drwxr-xr-x root/root                 3 2025-01-20 08:11 squashfs-root/basic/wifi_ko
+-rwxr-xr-x root/root               477 2025-03-07 10:31 squashfs-root/basic/yahoo.ini
+drwxr-xr-x root/root              1045 2025-03-07 10:39 squashfs-root/bin
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/agetty -> /mnt/vendor/linux_rootfs/openbox/bin/agetty
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/arping -> /mnt/vendor/linux_rootfs/openbox/bin/arping
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/awk -> /mnt/vendor/linux_rootfs/openbox/bin/awk
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/base64 -> /mnt/vendor/linux_rootfs/openbox/bin/base64
+lrwxrwxrwx root/root                45 2025-03-07 10:20 squashfs-root/bin/basename -> /mnt/vendor/linux_rootfs/openbox/bin/basename
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/bash -> /mnt/vendor/linux_rootfs/openbox/bin/bash
+lrwxrwxrwx root/root                49 2025-03-07 10:20 squashfs-root/bin/blkid -> /mnt/vendor/linux_rootfs/openbox/bin/blkid.static
+lrwxrwxrwx root/root                49 2025-03-07 10:20 squashfs-root/bin/blkid.static -> /mnt/vendor/linux_rootfs/openbox/bin/blkid.static
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/cat -> /mnt/vendor/linux_rootfs/openbox/bin/cat
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/chmod -> /mnt/vendor/linux_rootfs/openbox/bin/chmod
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/chown -> /mnt/vendor/linux_rootfs/openbox/bin/chown
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/chrt -> /mnt/vendor/linux_rootfs/openbox/bin/chrt
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/cp -> /mnt/vendor/linux_rootfs/openbox/bin/cp
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/date -> /mnt/vendor/linux_rootfs/openbox/bin/date
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/dd -> /mnt/vendor/linux_rootfs/openbox/bin/dd
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/depmod -> /mnt/vendor/linux_rootfs/openbox/bin/depmod
+-rwxr-xr-x root/root           1102808 2025-03-07 10:39 squashfs-root/bin/dibbler-client
+lrwxrwxrwx root/root                44 2025-03-07 10:20 squashfs-root/bin/dirname -> /mnt/vendor/linux_rootfs/openbox/bin/dirname
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/dmesg -> /mnt/vendor/linux_rootfs/openbox/bin/dmesg
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/du -> /mnt/vendor/linux_rootfs/openbox/bin/du
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/echo -> /mnt/vendor/linux_rootfs/openbox/bin/echo
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/find -> /mnt/vendor/linux_rootfs/openbox/bin/find
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/free -> /mnt/vendor/linux_rootfs/openbox/bin/free
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/getopt -> /mnt/vendor/linux_rootfs/openbox/bin/getopt
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/grep -> /mnt/vendor/linux_rootfs/openbox/bin/grep
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/gzip -> /mnt/vendor/linux_rootfs/openbox/bin/gzip
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/head -> /mnt/vendor/linux_rootfs/openbox/bin/head
+lrwxrwxrwx root/root                45 2025-03-07 10:20 squashfs-root/bin/hostname -> /mnt/vendor/linux_rootfs/openbox/bin/hostname
+lrwxrwxrwx root/root                44 2025-03-07 10:20 squashfs-root/bin/hwclock -> /mnt/vendor/linux_rootfs/openbox/bin/hwclock
+lrwxrwxrwx root/root                45 2025-03-07 10:20 squashfs-root/bin/ifconfig -> /mnt/vendor/linux_rootfs/openbox/bin/ifconfig
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/insmod -> /mnt/vendor/linux_rootfs/openbox/bin/insmod
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/kill -> /mnt/vendor/linux_rootfs/openbox/bin/kill
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/ln -> /mnt/vendor/linux_rootfs/openbox/bin/ln
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/login -> /mnt/vendor/linux_rootfs/openbox/bin/login
+lrwxrwxrwx root/root                44 2025-03-07 10:20 squashfs-root/bin/losetup -> /mnt/vendor/linux_rootfs/openbox/bin/losetup
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/ls -> /mnt/vendor/linux_rootfs/openbox/bin/ls
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/lsmod -> /mnt/vendor/linux_rootfs/openbox/bin/lsmod
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/md5sum -> /mnt/vendor/linux_rootfs/openbox/bin/md5sum
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/mkdir -> /mnt/vendor/linux_rootfs/openbox/bin/mkdir
+-rwxr-xr-x root/root            176360 2025-03-07 10:39 squashfs-root/bin/mkfs.ext4
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/mknod -> /mnt/vendor/linux_rootfs/openbox/bin/mknod
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/mkswap -> /mnt/vendor/linux_rootfs/openbox/bin/mkswap
+lrwxrwxrwx root/root                45 2025-03-07 10:20 squashfs-root/bin/modprobe -> /mnt/vendor/linux_rootfs/openbox/bin/modprobe
+lrwxrwxrwx root/root                68 2025-03-07 10:20 squashfs-root/bin/mount -> /mnt/vendor/linux_rootfs/openbox/bin/android_two_worlds.mount.static
+-rwxr-xr-x root/root              5056 2025-03-07 10:39 squashfs-root/bin/mountpoint
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/mv -> /mnt/vendor/linux_rootfs/openbox/bin/mv
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/nice -> /mnt/vendor/linux_rootfs/openbox/bin/nice
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/pidof -> /mnt/vendor/linux_rootfs/openbox/bin/pidof
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/ping -> /mnt/vendor/linux_rootfs/openbox/bin/ping
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/ping6 -> /mnt/vendor/linux_rootfs/openbox/bin/ping6
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/ps -> /mnt/vendor/linux_rootfs/openbox/bin/ps
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/pwd -> /mnt/vendor/linux_rootfs/openbox/bin/pwd
+lrwxrwxrwx root/root                21 2025-03-07 10:20 squashfs-root/bin/reboot -> /basic/bin/mtk_reboot
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/rm -> /mnt/vendor/linux_rootfs/openbox/bin/rm
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/rmmod -> /mnt/vendor/linux_rootfs/openbox/bin/rmmod
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/route -> /mnt/vendor/linux_rootfs/openbox/bin/route
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/sed -> /mnt/vendor/linux_rootfs/openbox/bin/sed
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/sh -> /mnt/vendor/linux_rootfs/openbox/bin/bash
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/sleep -> /mnt/vendor/linux_rootfs/openbox/bin/sleep
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/sort -> /mnt/vendor/linux_rootfs/openbox/bin/sort
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/stty -> /mnt/vendor/linux_rootfs/openbox/bin/stty
+lrwxrwxrwx root/root                39 2025-03-07 10:20 squashfs-root/bin/su -> /mnt/vendor/linux_rootfs/openbox/bin/su
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/swapon -> /mnt/vendor/linux_rootfs/openbox/bin/swapon
+lrwxrwxrwx root/root                41 2025-03-07 10:20 squashfs-root/bin/sync -> /mnt/vendor/linux_rootfs/openbox/bin/sync
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/sysctl -> /mnt/vendor/linux_rootfs/openbox/bin/sysctl
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/tar -> /mnt/vendor/linux_rootfs/openbox/bin/tar
+lrwxrwxrwx root/root                40 2025-03-07 10:20 squashfs-root/bin/top -> /mnt/vendor/linux_rootfs/openbox/bin/top
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/touch -> /mnt/vendor/linux_rootfs/openbox/bin/touch
+-rwxr-xr-x root/root             23488 2025-03-07 10:39 squashfs-root/bin/ubiattach
+-rwxr-xr-x root/root             22656 2025-03-07 10:39 squashfs-root/bin/ubidetach
+-rwxr-xr-x root/root             64180 2025-03-07 10:39 squashfs-root/bin/ubiformat
+-rwxr-xr-x root/root             25680 2025-03-07 10:39 squashfs-root/bin/ubimkvol
+-rwxr-xr-x root/root             26696 2025-03-07 10:39 squashfs-root/bin/ubinfo
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/udhcpc -> /mnt/vendor/linux_rootfs/openbox/bin/udhcpc
+lrwxrwxrwx root/root                69 2025-03-07 10:20 squashfs-root/bin/umount -> /mnt/vendor/linux_rootfs/openbox/bin/android_two_worlds.umount.static
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/watch -> /mnt/vendor/linux_rootfs/openbox/bin/watch
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/bin/whoami -> /mnt/vendor/linux_rootfs/openbox/bin/whoami
+lrwxrwxrwx root/root                42 2025-03-07 10:20 squashfs-root/bin/xargs -> /mnt/vendor/linux_rootfs/openbox/bin/xargs
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/data
+drwxr-xr-x root/root               549 2025-03-07 10:31 squashfs-root/etc
+-rwxr-xr-x root/root              9712 2025-03-07 10:20 squashfs-root/etc/checker.sh
+drwxr-xr-x root/root               135 2025-03-07 10:31 squashfs-root/etc/config
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/3rd_ro
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/android_system_existed
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/fastboot
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/net_delay_init
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/openbox
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/rel
+-rw-r--r-- root/root                 0 2025-03-07 10:31 squashfs-root/etc/config/wifi
+drwxr-xr-x root/root                34 2025-03-07 10:20 squashfs-root/etc/dibbler
+lrwxrwxrwx root/root                24 2025-03-07 10:20 squashfs-root/etc/dibbler/client.conf -> /tmp/dibbler/client.conf
+-rwxr-xr-x root/root               965 2025-03-07 10:31 squashfs-root/etc/directfbrc
+-rwxr-xr-x root/root               482 2025-03-07 10:20 squashfs-root/etc/fstab
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/etc/gai.conf -> /tmp/gai.conf
+-rwxr-xr-x root/root               786 2025-03-07 10:20 squashfs-root/etc/group
+-rwxr-xr-x root/root                26 2025-03-07 10:20 squashfs-root/etc/host.conf
+lrwxrwxrwx root/root                10 2025-03-07 10:20 squashfs-root/etc/hosts -> /tmp/hosts
+-rwxr-xr-x root/root               117 2025-03-07 10:20 squashfs-root/etc/hosts.equiv
+-rwxr-xr-x root/root              3587 2025-03-07 10:20 squashfs-root/etc/inetd.conf
+drwxr-xr-x root/root               286 2025-03-07 10:20 squashfs-root/etc/init.d
+-rwxr-xr-x root/root              5241 2025-03-07 10:20 squashfs-root/etc/init.d/checkroot.sh
+-rwxr-xr-x root/root              1228 2025-03-07 10:20 squashfs-root/etc/init.d/halt
+-rwxr-xr-x root/root               242 2025-03-07 10:20 squashfs-root/etc/init.d/ifupdown
+-rwxr-xr-x root/root              1828 2025-03-07 10:20 squashfs-root/etc/init.d/inetd
+-rwxr-xr-x root/root              4654 2025-03-07 10:20 squashfs-root/etc/init.d/init-functions
+-rwxr-xr-x root/root              1550 2025-03-07 10:20 squashfs-root/etc/init.d/mountall.sh
+-rwxr-xr-x root/root              5193 2025-03-07 10:20 squashfs-root/etc/init.d/mountvirtfs
+-rwxr-xr-x root/root              5073 2025-03-07 10:20 squashfs-root/etc/init.d/networking
+-rwxr-xr-x root/root              3169 2025-03-07 10:20 squashfs-root/etc/init.d/portmap
+-rwxr-xr-x root/root              2265 2025-03-07 10:20 squashfs-root/etc/init.d/rc
+-rwxr-xr-x root/root               686 2025-03-07 10:20 squashfs-root/etc/init.d/rcS
+-rwxr-xr-x root/root              9733 2025-03-07 10:20 squashfs-root/etc/init.d/rcS.utopia.linux
+-rwxr-xr-x root/root              1377 2025-03-07 10:20 squashfs-root/etc/init.d/reboot
+-rwxr-xr-x root/root              1240 2025-03-07 10:20 squashfs-root/etc/init.d/sendsigs
+-rwxr-xr-x root/root              1240 2025-03-07 10:20 squashfs-root/etc/init.d/single
+-rwxr-xr-x root/root              6141 2025-03-07 10:20 squashfs-root/etc/init.d/udev
+-rwxr-xr-x root/root               532 2025-03-07 10:20 squashfs-root/etc/init.d/umountfs
+-rwxr-xr-x root/root               349 2025-03-07 10:20 squashfs-root/etc/inittab
+-rwxr-xr-x root/root             12240 2025-03-07 10:20 squashfs-root/etc/keymaprc
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/etc/localtime -> /3rd_rw/localtime
+-rwxr-xr-x root/root               446 2025-03-07 10:20 squashfs-root/etc/malirc
+lrwxrwxrwx root/root                12 2025-03-07 10:20 squashfs-root/etc/mtab -> /proc/mounts
+drwxr-xr-x root/root                60 2025-03-07 10:20 squashfs-root/etc/network
+-rwxr-xr-x root/root              4914 2025-03-07 10:20 squashfs-root/etc/network/interfaces
+-rwxr-xr-x root/root                65 2025-03-07 10:20 squashfs-root/etc/network/options
+-rwxr-xr-x root/root               452 2025-03-07 10:20 squashfs-root/etc/nsswitch.conf
+-rwxr-xr-x root/root               232 2025-03-07 10:20 squashfs-root/etc/pam.conf
+-rwxr-xr-x root/root              1580 2025-03-07 10:20 squashfs-root/etc/passwd
+drwxr-xr-x root/root                34 2025-03-07 10:20 squashfs-root/etc/ppp
+lrwxrwxrwx root/root                28 2025-03-07 10:20 squashfs-root/etc/ppp/resolv.conf -> /data/vendor/tmp/resolv.conf
+-rwxr-xr-x root/root              2150 2025-03-07 10:20 squashfs-root/etc/profile
+-rwxr-xr-x root/root              5834 2025-03-07 10:20 squashfs-root/etc/protocols
+drwxr-xr-x root/root                55 2025-03-07 10:20 squashfs-root/etc/rc.d
+-rwxr-xr-x root/root              7921 2025-03-07 10:20 squashfs-root/etc/rc.d/rc.local
+-rwxr-xr-x root/root               629 2025-03-07 10:20 squashfs-root/etc/rc.d/rc.local.partial
+lrwxrwxrwx root/root                28 2025-03-07 10:20 squashfs-root/etc/resolv.conf -> /data/vendor/tmp/resolv.conf
+-rwxr-xr-x root/root              1615 2025-03-07 10:20 squashfs-root/etc/rpc
+-rwxr-xr-x root/root              1123 2025-03-07 10:20 squashfs-root/etc/sawmanrc
+drwxr-xr-x root/root               826 2025-03-07 10:20 squashfs-root/etc/scripts
+-rw-r--r-- root/root              6185 2025-03-07 10:20 squashfs-root/etc/scripts/auto_launch.sh
+-rw-r--r-- root/root              6085 2025-03-07 10:20 squashfs-root/etc/scripts/basic_mount_ro.sh
+-rw-r--r-- root/root              6085 2025-03-07 10:20 squashfs-root/etc/scripts/basic_mount_rw.sh
+-rwxr-xr-x root/root              1112 2025-03-07 10:20 squashfs-root/etc/scripts/dhcpv6.sh
+-rw-r--r-- root/root             10060 2025-03-07 10:20 squashfs-root/etc/scripts/ext4_mount_3rd.sh
+-rw-r--r-- root/root              6269 2025-03-07 10:20 squashfs-root/etc/scripts/ext4_mount_perm.sh
+-rw-r--r-- root/root              6080 2025-03-07 10:20 squashfs-root/etc/scripts/ext4_unmount_3rd.sh
+-rw-r--r-- root/root              6010 2025-03-07 10:20 squashfs-root/etc/scripts/ext4_unmount_perm.sh
+-rwxr-xr-x root/root              6258 2025-03-07 10:20 squashfs-root/etc/scripts/gen_env.sh
+-rwxr-xr-x root/root              6770 2025-03-07 10:20 squashfs-root/etc/scripts/init_all.sh
+-rwxr-xr-x root/root              6026 2025-03-07 10:20 squashfs-root/etc/scripts/init_daemon.sh
+-rwxr-xr-x root/root              6162 2025-03-07 10:20 squashfs-root/etc/scripts/ins_all_mod.sh
+-rwxr-xr-x root/root              6673 2025-03-07 10:20 squashfs-root/etc/scripts/ins_arm_mali_mod.sh
+-rwxr-xr-x root/root              6376 2025-03-07 10:20 squashfs-root/etc/scripts/ins_basic_mod.sh
+-rwxr-xr-x root/root              6317 2025-03-07 10:20 squashfs-root/etc/scripts/ins_blk_mod.sh
+-rwxr-xr-x root/root              6451 2025-03-07 10:20 squashfs-root/etc/scripts/ins_drv.sh
+-rwxr-xr-x root/root              6439 2025-03-07 10:20 squashfs-root/etc/scripts/ins_dtv.sh
+-rwxr-xr-x root/root              6236 2025-03-07 10:20 squashfs-root/etc/scripts/ins_eth_mod.sh
+-rwxr-xr-x root/root              6317 2025-03-07 10:20 squashfs-root/etc/scripts/ins_fs_mod.sh
+-rwxr-xr-x root/root              6299 2025-03-07 10:20 squashfs-root/etc/scripts/ins_usb_core_mod.sh
+-rwxr-xr-x root/root              6604 2025-03-07 10:20 squashfs-root/etc/scripts/ins_usb_sub_mod.sh
+-rwxr-xr-x root/root              7070 2025-03-07 10:20 squashfs-root/etc/scripts/ins_wifi_mod.sh
+-rwxr-xr-x root/root                53 2025-03-07 10:20 squashfs-root/etc/scripts/kill_3rd_app.sh
+-rw-r--r-- root/root              6189 2025-03-07 10:20 squashfs-root/etc/scripts/manual_launch.sh
+-rwxr-xr-x root/root              6019 2025-03-07 10:20 squashfs-root/etc/scripts/mkpts.sh
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/etc/scripts/mount_3rd.sh -> ext4_mount_3rd.sh
+lrwxrwxrwx root/root                27 2025-03-07 10:20 squashfs-root/etc/scripts/mount_3rd_ro.sh -> squash_mount_emmc_3rd_ro.sh
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/etc/scripts/mount_perm.sh -> ext4_mount_perm.sh
+-rwxr-xr-x root/root              6941 2025-03-07 10:20 squashfs-root/etc/scripts/rm_usb_mod.sh
+-rw-r--r-- root/root               213 2025-03-07 10:20 squashfs-root/etc/scripts/squash_mount_emmc_3rd_ro.sh
+-rw-r--r-- root/root              5990 2025-03-07 10:20 squashfs-root/etc/scripts/squash_unmount_3rd_ro.sh
+lrwxrwxrwx root/root                19 2025-03-07 10:20 squashfs-root/etc/scripts/unmount_3rd.sh -> ext4_unmount_3rd.sh
+lrwxrwxrwx root/root                24 2025-03-07 10:20 squashfs-root/etc/scripts/unmount_3rd_ro.sh -> squash_unmount_3rd_ro.sh
+lrwxrwxrwx root/root                20 2025-03-07 10:20 squashfs-root/etc/scripts/unmount_perm.sh -> ext4_unmount_perm.sh
+-rwxr-xr-x root/root               460 2025-03-07 10:20 squashfs-root/etc/scripts/usb_console.sh
+-rwxr-xr-x root/root             16144 2025-03-07 10:20 squashfs-root/etc/services
+-rw------- root/root               372 2025-03-07 10:20 squashfs-root/etc/shadow
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/etc/sysconfig
+-rwxr-xr-x root/root               139 2025-03-07 10:20 squashfs-root/etc/sysctl.conf
+drwxr-xr-x root/root               240 2025-03-07 10:20 squashfs-root/etc/udev
+-rwxr-xr-x root/root               683 2025-03-07 10:20 squashfs-root/etc/udev/cd-aliases.rules
+-rwxr-xr-x root/root               444 2025-03-07 10:20 squashfs-root/etc/udev/cdsymlinks.conf
+-rwxr-xr-x root/root               897 2025-03-07 10:20 squashfs-root/etc/udev/compat-full.rules
+-rwxr-xr-x root/root               913 2025-03-07 10:20 squashfs-root/etc/udev/compat.rules
+-rwxr-xr-x root/root              7020 2025-03-07 10:20 squashfs-root/etc/udev/devfs.rules
+-rwxr-xr-x root/root               416 2025-03-07 10:20 squashfs-root/etc/udev/links.conf
+drwxr-xr-x root/root                75 2025-03-07 10:20 squashfs-root/etc/udev/rules.d
+-rwxr-xr-x root/root              1513 2025-03-07 10:20 squashfs-root/etc/udev/rules.d/50-udev.rules
+-rwxr-xr-x root/root               913 2025-03-07 10:20 squashfs-root/etc/udev/rules.d/compat.rules
+-rwxr-xr-x root/root              7020 2025-03-07 10:20 squashfs-root/etc/udev/rules.d/devfs.rules
+drwxr-xr-x root/root               151 2025-03-07 10:20 squashfs-root/etc/udev/scripts
+-rwxr-xr-x root/root             12509 2025-03-07 10:20 squashfs-root/etc/udev/scripts/cdsymlinks.sh
+-rwxr-xr-x root/root              6017 2025-03-07 10:20 squashfs-root/etc/udev/scripts/dvb.sh
+-rwxr-xr-x root/root              7179 2025-03-07 10:20 squashfs-root/etc/udev/scripts/ide-devfs.sh
+-rwxr-xr-x root/root              6184 2025-03-07 10:20 squashfs-root/etc/udev/scripts/ide-model.sh
+-rwxr-xr-x root/root              6525 2025-03-07 10:20 squashfs-root/etc/udev/scripts/inputdev.sh
+-rwxr-xr-x root/root              1168 2025-03-07 10:20 squashfs-root/etc/udev/scripts/raid-devfs.sh
+-rwxr-xr-x root/root              7433 2025-03-07 10:20 squashfs-root/etc/udev/scripts/scsi-devfs.sh
+-rwxr-xr-x root/root               333 2025-03-07 10:20 squashfs-root/etc/udev/simple-cd-aliases.rules
+-rwxr-xr-x root/root               542 2025-03-07 10:20 squashfs-root/etc/udev/udev.conf
+-rwxr-xr-x root/root              4887 2025-03-07 10:20 squashfs-root/etc/udev/udev.rules
+lrwxrwxrwx root/root                 6 2025-03-07 10:20 squashfs-root/fw_upgrade -> 3rd_rw
+drwxr-xr-x root/root              2215 2025-03-07 10:39 squashfs-root/lib
+-rwxr-xr-x root/root            134296 2025-03-07 10:20 squashfs-root/lib/ld-2.21.so
+lrwxrwxrwx root/root                10 2025-03-07 10:20 squashfs-root/lib/ld-linux.so.3 -> ld-2.21.so
+-rwxr-xr-x root/root              5468 2025-03-07 10:20 squashfs-root/lib/libBrokenLocale-2.21.so
+lrwxrwxrwx root/root                20 2025-03-07 10:20 squashfs-root/lib/libBrokenLocale.so -> libBrokenLocale.so.1
+lrwxrwxrwx root/root                23 2025-03-07 10:20 squashfs-root/lib/libBrokenLocale.so.1 -> libBrokenLocale-2.21.so
+-rwxr-xr-x root/root              9512 2025-03-07 10:20 squashfs-root/lib/libSegFault.so
+-rwxr-xr-x root/root             13800 2025-03-07 10:20 squashfs-root/lib/libanl-2.21.so
+lrwxrwxrwx root/root                11 2025-03-07 10:20 squashfs-root/lib/libanl.so -> libanl.so.1
+lrwxrwxrwx root/root                14 2025-03-07 10:20 squashfs-root/lib/libanl.so.1 -> libanl-2.21.so
+-rwxr-xr-x root/root            908600 2025-03-07 10:20 squashfs-root/lib/libasan.so.0
+-rwxr-xr-x root/root            908768 2025-03-07 10:20 squashfs-root/lib/libasan.so.2.0.0
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libatomic.so -> libatomic.so.1.1.0
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libatomic.so.1 -> libatomic.so.1.1.0
+-rwxr-xr-x root/root             17608 2025-03-07 10:20 squashfs-root/lib/libatomic.so.1.1.0
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libblkid.so -> libblkid.so.1.1.0
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x root/root            210196 2025-03-07 10:20 squashfs-root/lib/libblkid.so.1.1.0
+-rwxr-xr-x root/root           1221940 2025-03-07 10:39 squashfs-root/lib/libc-2.21.so
+lrwxrwxrwx root/root                12 2025-03-07 10:20 squashfs-root/lib/libc.so.6 -> libc-2.21.so
+-rwxr-xr-x root/root            181652 2025-03-07 10:20 squashfs-root/lib/libcidn-2.21.so
+-rwxr-xr-x root/root              9216 2025-03-07 10:20 squashfs-root/lib/libcom_err.so.2
+-rwxr-xr-x root/root             34140 2025-03-07 10:20 squashfs-root/lib/libcrypt-2.21.so
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/lib/libcrypt.so -> libcrypt.so.1
+lrwxrwxrwx root/root                16 2025-03-07 10:20 squashfs-root/lib/libcrypt.so.1 -> libcrypt-2.21.so
+-rwxr-xr-x root/root              9564 2025-03-07 10:20 squashfs-root/lib/libdl-2.21.so
+lrwxrwxrwx root/root                10 2025-03-07 10:20 squashfs-root/lib/libdl.so -> libdl.so.2
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/lib/libdl.so.2 -> libdl-2.21.so
+-rwxr-xr-x root/root             23172 2025-03-07 10:20 squashfs-root/lib/libe2p.so.2
+-rwxr-xr-x root/root             14520 2025-03-07 10:20 squashfs-root/lib/libefence.so
+-rwxr-xr-x root/root            159556 2025-03-07 10:20 squashfs-root/lib/libext2fs.so.2
+lrwxrwxrwx root/root                21 2025-03-07 10:20 squashfs-root/lib/libfreetype.so -> libfreetype.so.6.14.0
+lrwxrwxrwx root/root                21 2025-03-07 10:20 squashfs-root/lib/libfreetype.so.6 -> libfreetype.so.6.14.0
+-rwxr-xr-x root/root            876568 2025-03-07 10:20 squashfs-root/lib/libfreetype.so.6.14.0
+-rwxr-xr-x root/root               132 2025-03-07 10:20 squashfs-root/lib/libgcc_s.so
+-rwxr-xr-x root/root            116012 2025-03-07 10:20 squashfs-root/lib/libgcc_s.so.1
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libjpeg.so -> libjpeg.so.62.0.0
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libjpeg.so.62 -> libjpeg.so.62.0.0
+-rwxr-xr-x root/root            182636 2025-03-07 10:20 squashfs-root/lib/libjpeg.so.62.0.0
+-rwxr-xr-x root/root            443752 2025-03-07 10:20 squashfs-root/lib/libm-2.21.so
+lrwxrwxrwx root/root                 9 2025-03-07 10:20 squashfs-root/lib/libm.so -> libm.so.6
+lrwxrwxrwx root/root                12 2025-03-07 10:20 squashfs-root/lib/libm.so.6 -> libm-2.21.so
+-rwxr-xr-x root/root             17752 2025-03-07 10:20 squashfs-root/lib/libmemusage.so
+-rwxr-xr-x root/root             75100 2025-03-07 10:20 squashfs-root/lib/libnsl-2.21.so
+lrwxrwxrwx root/root                11 2025-03-07 10:20 squashfs-root/lib/libnsl.so -> libnsl.so.1
+lrwxrwxrwx root/root                14 2025-03-07 10:20 squashfs-root/lib/libnsl.so.1 -> libnsl-2.21.so
+-rwxr-xr-x root/root             30268 2025-03-07 10:20 squashfs-root/lib/libnss_compat-2.21.so
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libnss_compat.so -> libnss_compat.so.2
+lrwxrwxrwx root/root                21 2025-03-07 10:20 squashfs-root/lib/libnss_compat.so.2 -> libnss_compat-2.21.so
+-rwxr-xr-x root/root             25948 2025-03-07 10:20 squashfs-root/lib/libnss_db-2.21.so
+-rwxr-xr-x root/root             21852 2025-03-07 10:20 squashfs-root/lib/libnss_dns-2.21.so
+lrwxrwxrwx root/root                15 2025-03-07 10:20 squashfs-root/lib/libnss_dns.so -> libnss_dns.so.2
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libnss_dns.so.2 -> libnss_dns-2.21.so
+-rwxr-xr-x root/root             42368 2025-03-07 10:20 squashfs-root/lib/libnss_files-2.21.so
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libnss_files.so -> libnss_files.so.2
+lrwxrwxrwx root/root                20 2025-03-07 10:20 squashfs-root/lib/libnss_files.so.2 -> libnss_files-2.21.so
+-rwxr-xr-x root/root             17756 2025-03-07 10:20 squashfs-root/lib/libnss_hesiod-2.21.so
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libnss_hesiod.so -> libnss_hesiod.so.2
+lrwxrwxrwx root/root                21 2025-03-07 10:20 squashfs-root/lib/libnss_hesiod.so.2 -> libnss_hesiod-2.21.so
+-rwxr-xr-x root/root             42352 2025-03-07 10:20 squashfs-root/lib/libnss_nis-2.21.so
+lrwxrwxrwx root/root                15 2025-03-07 10:20 squashfs-root/lib/libnss_nis.so -> libnss_nis.so.2
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libnss_nis.so.2 -> libnss_nis-2.21.so
+-rwxr-xr-x root/root             50524 2025-03-07 10:20 squashfs-root/lib/libnss_nisplus-2.21.so
+lrwxrwxrwx root/root                19 2025-03-07 10:20 squashfs-root/lib/libnss_nisplus.so -> libnss_nisplus.so.2
+lrwxrwxrwx root/root                22 2025-03-07 10:20 squashfs-root/lib/libnss_nisplus.so.2 -> libnss_nisplus-2.21.so
+-rwxr-xr-x root/root             59848 2025-03-07 10:20 squashfs-root/lib/libpam.so.0
+-rwxr-xr-x root/root             10612 2025-03-07 10:20 squashfs-root/lib/libpam_misc.so.0
+-rwxr-xr-x root/root              5416 2025-03-07 10:20 squashfs-root/lib/libpcprofile.so
+lrwxrwxrwx root/root                11 2025-03-07 10:20 squashfs-root/lib/libpng.so -> libpng12.so
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libpng.so.3 -> libpng.so.3.1.2.59
+-rwxr-xr-x root/root            129732 2025-03-07 10:20 squashfs-root/lib/libpng.so.3.1.2.59
+lrwxrwxrwx root/root                20 2025-03-07 10:20 squashfs-root/lib/libpng12.so -> libpng12.so.0.1.2.59
+lrwxrwxrwx root/root                20 2025-03-07 10:20 squashfs-root/lib/libpng12.so.0 -> libpng12.so.0.1.2.59
+-rwxr-xr-x root/root            119212 2025-03-07 10:20 squashfs-root/lib/libpng12.so.0.1.2.59
+-rwxr-xr-x root/root             88140 2025-03-07 10:20 squashfs-root/lib/libpthread-2.21.so
+lrwxrwxrwx root/root                18 2025-03-07 10:20 squashfs-root/lib/libpthread.so.0 -> libpthread-2.21.so
+-rwxr-xr-x root/root             75224 2025-03-07 10:20 squashfs-root/lib/libresolv-2.21.so
+lrwxrwxrwx root/root                14 2025-03-07 10:20 squashfs-root/lib/libresolv.so -> libresolv.so.2
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libresolv.so.2 -> libresolv-2.21.so
+-rwxr-xr-x root/root             26228 2025-03-07 10:20 squashfs-root/lib/librt-2.21.so
+lrwxrwxrwx root/root                10 2025-03-07 10:20 squashfs-root/lib/librt.so -> librt.so.1
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/lib/librt.so.1 -> librt-2.21.so
+lrwxrwxrwx root/root                19 2025-03-07 10:20 squashfs-root/lib/libstdc++.so -> libstdc++.so.6.0.21
+lrwxrwxrwx root/root                19 2025-03-07 10:20 squashfs-root/lib/libstdc++.so.6 -> libstdc++.so.6.0.21
+-rwxr-xr-x root/root           1247020 2025-03-07 10:20 squashfs-root/lib/libstdc++.so.6.0.21
+-rwxr-xr-x root/root              2576 2025-03-07 10:20 squashfs-root/lib/libstdc++.so.6.0.21-gdb.py
+-rwxr-xr-x root/root             30328 2025-03-07 10:20 squashfs-root/lib/libthread_db-1.0.so
+lrwxrwxrwx root/root                17 2025-03-07 10:20 squashfs-root/lib/libthread_db.so -> libthread_db.so.1
+lrwxrwxrwx root/root                19 2025-03-07 10:20 squashfs-root/lib/libthread_db.so.1 -> libthread_db-1.0.so
+-rwxr-xr-x root/root              9564 2025-03-07 10:20 squashfs-root/lib/libutil-2.21.so
+lrwxrwxrwx root/root                12 2025-03-07 10:20 squashfs-root/lib/libutil.so -> libutil.so.1
+lrwxrwxrwx root/root                15 2025-03-07 10:20 squashfs-root/lib/libutil.so.1 -> libutil-2.21.so
+lrwxrwxrwx root/root                16 2025-03-07 10:20 squashfs-root/lib/libuuid.so -> libuuid.so.1.3.0
+lrwxrwxrwx root/root                16 2025-03-07 10:20 squashfs-root/lib/libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x root/root             10964 2025-03-07 10:20 squashfs-root/lib/libuuid.so.1.3.0
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/lib/libz.so -> libz.so.1.2.3
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/lib/libz.so.1 -> libz.so.1.2.3
+-rwxr-xr-x root/root             88548 2025-03-07 10:20 squashfs-root/lib/libz.so.1.2.3
+lrwxrwxrwx root/root                14 2025-03-07 10:20 squashfs-root/lib/modules -> /basic/modules
+drwxr-xr-x root/root                34 2025-03-07 10:39 squashfs-root/lib/security
+-rwxr-xr-x root/root             58376 2025-03-07 10:20 squashfs-root/lib/security/pam_unix.so
+lrwxrwxrwx root/root                 8 2025-03-07 10:20 squashfs-root/mnt -> /tmp/mnt
+drwxr-xr-x root/root                26 2025-03-07 10:20 squashfs-root/openbox
+drwxr-xr-x root/root               843 2025-03-07 10:39 squashfs-root/openbox/bin
+-rwxr-xr-x root/root             40288 2025-03-07 10:39 squashfs-root/openbox/bin/agetty
+-rwxr-xr-x root/root             15040 2025-03-07 10:39 squashfs-root/openbox/bin/arping
+-rwxr-xr-x root/root            299732 2025-03-07 10:39 squashfs-root/openbox/bin/awk
+-rwxr-xr-x root/root             21020 2025-03-07 10:39 squashfs-root/openbox/bin/base64
+-rwxr-xr-x root/root             14660 2025-03-07 10:39 squashfs-root/openbox/bin/basename
+-rwxr-xr-x root/root            667164 2025-03-07 10:39 squashfs-root/openbox/bin/bash
+-rwxr-xr-x root/root            683664 2025-03-07 10:20 squashfs-root/openbox/bin/blkid.static
+-rwxr-xr-x root/root             18236 2025-03-07 10:39 squashfs-root/openbox/bin/cat
+-rwxr-xr-x root/root             32776 2025-03-07 10:39 squashfs-root/openbox/bin/chmod
+-rwxr-xr-x root/root             41900 2025-03-07 10:39 squashfs-root/openbox/bin/chown
+-rwxr-xr-x root/root             21284 2025-03-07 10:39 squashfs-root/openbox/bin/chrt
+-rwxr-xr-x root/root             52416 2025-03-07 10:39 squashfs-root/openbox/bin/cp
+-rwxr-xr-x root/root             45912 2025-03-07 10:39 squashfs-root/openbox/bin/date
+-rwxr-xr-x root/root             38820 2025-03-07 10:39 squashfs-root/openbox/bin/dd
+-rwxr-xr-x root/root             55784 2025-03-07 10:39 squashfs-root/openbox/bin/depmod
+-rwxr-xr-x root/root             14860 2025-03-07 10:39 squashfs-root/openbox/bin/dirname
+-rwxr-xr-x root/root             47628 2025-03-07 10:39 squashfs-root/openbox/bin/dmesg
+-rwxr-xr-x root/root             72748 2025-03-07 10:39 squashfs-root/openbox/bin/du
+-rwxr-xr-x root/root             15860 2025-03-07 10:39 squashfs-root/openbox/bin/echo
+-rwxr-xr-x root/root            141564 2025-03-07 10:39 squashfs-root/openbox/bin/find
+-rwxr-xr-x root/root             37108 2025-03-07 10:39 squashfs-root/openbox/bin/free
+-rwxr-xr-x root/root             10092 2025-03-07 10:39 squashfs-root/openbox/bin/getopt
+-rwxr-xr-x root/root             71628 2025-03-07 10:39 squashfs-root/openbox/bin/grep
+-rwxr-xr-x root/root             55100 2025-03-07 10:39 squashfs-root/openbox/bin/gzip
+-rwxr-xr-x root/root             25008 2025-03-07 10:39 squashfs-root/openbox/bin/head
+-rwxr-xr-x root/root             14180 2025-03-07 10:39 squashfs-root/openbox/bin/hostname
+-rwxr-xr-x root/root             36684 2025-03-07 10:39 squashfs-root/openbox/bin/hwclock
+-rwxr-xr-x root/root             48144 2025-03-07 10:39 squashfs-root/openbox/bin/ifconfig
+-rwxr-xr-x root/root              7368 2025-03-07 10:39 squashfs-root/openbox/bin/insmod
+-rwxr-xr-x root/root             18640 2025-03-07 10:39 squashfs-root/openbox/bin/kill
+-rwxr-xr-x root/root             24792 2025-03-07 10:39 squashfs-root/openbox/bin/ln
+-rwxr-xr-x root/root             31524 2025-03-07 10:39 squashfs-root/openbox/bin/login
+-rwxr-xr-x root/root             89772 2025-03-07 10:39 squashfs-root/openbox/bin/losetup
+-rwxr-xr-x root/root             92376 2025-03-07 10:39 squashfs-root/openbox/bin/ls
+-rwxr-xr-x root/root              4132 2025-03-07 10:39 squashfs-root/openbox/bin/lsmod
+-rwxr-xr-x root/root             23516 2025-03-07 10:39 squashfs-root/openbox/bin/md5sum
+-rwxr-xr-x root/root             20872 2025-03-07 10:39 squashfs-root/openbox/bin/mkdir
+-rwxr-xr-x root/root             19648 2025-03-07 10:39 squashfs-root/openbox/bin/mknod
+-rwxr-xr-x root/root            150696 2025-03-07 10:39 squashfs-root/openbox/bin/mkswap
+-rwxr-xr-x root/root             43912 2025-03-07 10:39 squashfs-root/openbox/bin/modprobe
+-rwxr-xr-x root/root             57356 2025-03-07 10:39 squashfs-root/openbox/bin/mv
+-rwxr-xr-x root/root             18196 2025-03-07 10:39 squashfs-root/openbox/bin/nice
+-rwxr-xr-x root/root             41060 2025-03-07 10:39 squashfs-root/openbox/bin/pidof
+-rwxr-xr-x root/root             44640 2025-03-07 10:39 squashfs-root/openbox/bin/ping
+-rwxr-xr-x root/root             47804 2025-03-07 10:39 squashfs-root/openbox/bin/ping6
+-rwxr-xr-x root/root            179132 2025-03-07 10:39 squashfs-root/openbox/bin/ps
+-rwxr-xr-x root/root             18236 2025-03-07 10:39 squashfs-root/openbox/bin/pwd
+-rwxr-xr-x root/root             34796 2025-03-07 10:39 squashfs-root/openbox/bin/rm
+-rwxr-xr-x root/root              9116 2025-03-07 10:39 squashfs-root/openbox/bin/rmmod
+-rwxr-xr-x root/root             39708 2025-03-07 10:39 squashfs-root/openbox/bin/route
+-rwxr-xr-x root/root             94448 2025-03-07 10:39 squashfs-root/openbox/bin/sed
+-rwxr-xr-x root/root             15576 2025-03-07 10:39 squashfs-root/openbox/bin/sleep
+-rwxr-xr-x root/root             60344 2025-03-07 10:39 squashfs-root/openbox/bin/sort
+-rwxr-xr-x root/root             40780 2025-03-07 10:39 squashfs-root/openbox/bin/stty
+-rwsr-xr-x root/root             20000 2025-03-07 10:39 squashfs-root/openbox/bin/su
+-rwxr-xr-x root/root            273316 2025-03-07 10:39 squashfs-root/openbox/bin/swapon
+-rwxr-xr-x root/root             14080 2025-03-07 10:39 squashfs-root/openbox/bin/sync
+-rwxr-xr-x root/root             23924 2025-03-07 10:39 squashfs-root/openbox/bin/sysctl
+-rwxr-xr-x root/root            289180 2025-03-07 10:39 squashfs-root/openbox/bin/tar
+-rwxr-xr-x root/root            232940 2025-03-07 10:39 squashfs-root/openbox/bin/top
+-rwxr-xr-x root/root             34736 2025-03-07 10:39 squashfs-root/openbox/bin/touch
+-rwxr-xr-x root/root             20300 2025-03-07 10:39 squashfs-root/openbox/bin/udhcpc
+-rwxr-xr-x root/root            125908 2025-03-07 10:39 squashfs-root/openbox/bin/watch
+-rwxr-xr-x root/root             14088 2025-03-07 10:39 squashfs-root/openbox/bin/whoami
+-rwxr-xr-x root/root             23196 2025-03-07 10:39 squashfs-root/openbox/bin/xargs
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/opt
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/perm
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/proc
+drwxr-xr-x root/root               197 2025-03-07 10:39 squashfs-root/sbin
+-rwxr-xr-x root/root              8880 2025-03-07 10:39 squashfs-root/sbin/cli_64
+-rwxr-xr-x root/root              1015 2025-03-07 10:20 squashfs-root/sbin/coredump.sh
+-rwxr-xr-x root/root              2366 2025-03-07 10:20 squashfs-root/sbin/dhcpc.script
+-rwxr-xr-x root/root              1319 2025-03-07 10:20 squashfs-root/sbin/dns.script
+lrwxrwxrwx root/root                43 2025-03-07 10:20 squashfs-root/sbin/getty -> /mnt/vendor/linux_rootfs/openbox/bin/agetty
+lrwxrwxrwx root/root                13 2025-03-07 10:20 squashfs-root/sbin/ifconfig -> /bin/ifconfig
+-rwxr-xr-x root/root              2854 2025-03-07 10:20 squashfs-root/sbin/ifconfig.script
+-rwxr-xr-x root/root             28268 2025-03-07 10:39 squashfs-root/sbin/init
+-rwxr-xr-x root/root             12716 2025-03-07 10:39 squashfs-root/sbin/showmap
+-rwxr-xr-x root/root              2495 2025-03-07 10:20 squashfs-root/sbin/showmap.sh
+lrwxrwxrwx root/root                11 2025-03-07 10:20 squashfs-root/sbin/udhcpc -> /bin/udhcpc
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/sys
+lrwxrwxrwx root/root                16 2025-03-07 10:20 squashfs-root/tmp -> /dev/shm/shm_tmp
+drwxr-xr-x root/root                74 2025-03-07 10:20 squashfs-root/usr
+drwxr-xr-x root/root                97 2025-03-07 10:39 squashfs-root/usr/bin
+-rwxr-xr-x root/root              9340 2025-03-07 10:39 squashfs-root/usr/bin/cli
+-rwxr-xr-x root/root               565 2025-03-07 10:20 squashfs-root/usr/bin/killall
+-rwxr-xr-x root/root              5577 2025-03-07 10:20 squashfs-root/usr/bin/ldd
+-rwxr-xr-x root/root              6153 2025-03-07 10:20 squashfs-root/usr/bin/suspend.sh
+-rwxr-xr-x root/root              5560 2025-03-07 10:39 squashfs-root/usr/bin/usb_path
+-rwxr-xr-x root/root             13752 2025-03-07 10:39 squashfs-root/usr/bin/xml
+drwxr-xr-x root/root                42 2025-03-07 10:20 squashfs-root/usr/lib
+lrwxrwxrwx root/root                25 2025-03-07 10:20 squashfs-root/usr/lib/gconv -> /3rd/rootfs/usr/lib/gconv
+lrwxrwxrwx root/root                26 2025-03-07 10:20 squashfs-root/usr/lib/locale -> /3rd/rootfs/usr/lib/locale
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/usr/sbin
+drwxr-xr-x root/root                73 2025-03-07 10:20 squashfs-root/usr/share
+drwxr-xr-x root/root                33 2025-03-07 10:20 squashfs-root/usr/share/terminfo
+drwxr-xr-x root/root                27 2025-03-07 10:39 squashfs-root/usr/share/terminfo/d
+-rwxr-xr-x root/root               308 2025-03-07 10:20 squashfs-root/usr/share/terminfo/d/dumb
+drwxr-xr-x root/root                28 2025-03-07 10:39 squashfs-root/usr/share/terminfo/v
+-rwxr-xr-x root/root              1194 2025-03-07 10:20 squashfs-root/usr/share/terminfo/v/vt100
+drwxr-xr-x root/root                37 2025-03-07 10:20 squashfs-root/usr/share/udhcpc
+-rwxr-xr-x root/root              2032 2025-03-07 10:20 squashfs-root/usr/share/udhcpc/default.script
+drwxr-xr-x root/root               887 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo
+drwxr-xr-x root/root               858 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Africa
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Abidjan
+-rwxr-xr-x root/root               826 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Accra
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Addis_Ababa
+-rwxr-xr-x root/root               734 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Algiers
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Asmara
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Asmera
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Bamako
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Bangui
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Banjul
+-rwxr-xr-x root/root               194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Bissau
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Blantyre
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Brazzaville
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Bujumbura
+-rwxr-xr-x root/root              1946 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Cairo
+-rwxr-xr-x root/root              1615 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Casablanca
+-rwxr-xr-x root/root              2049 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Ceuta
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Conakry
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Dakar
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Dar_es_Salaam
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Djibouti
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Douala
+-rwxr-xr-x root/root              1445 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/El_Aaiun
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Freetown
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Gaborone
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Harare
+-rwxr-xr-x root/root               245 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Johannesburg
+-rwxr-xr-x root/root               669 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Juba
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Kampala
+-rwxr-xr-x root/root               669 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Khartoum
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Kigali
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Kinshasa
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Lagos
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Libreville
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Lome
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Luanda
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Lubumbashi
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Lusaka
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Malabo
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Maputo
+-rwxr-xr-x root/root               245 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Maseru
+-rwxr-xr-x root/root               245 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Mbabane
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Mogadishu
+-rwxr-xr-x root/root               215 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Monrovia
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Nairobi
+-rwxr-xr-x root/root               211 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Ndjamena
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Niamey
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Nouakchott
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Ouagadougou
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Porto-Novo
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Sao_Tome
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Timbuktu
+-rwxr-xr-x root/root               641 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Tripoli
+-rwxr-xr-x root/root               684 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Tunis
+-rwxr-xr-x root/root              1556 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Africa/Windhoek
+drwxr-xr-x root/root              2379 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/America
+-rwxr-xr-x root/root              2339 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Adak
+-rwxr-xr-x root/root              2358 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Anchorage
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Anguilla
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Antigua
+-rwxr-xr-x root/root               882 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Araguaina
+drwxr-xr-x root/root               228 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/America/Argentina
+-rwxr-xr-x root/root              1061 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Buenos_Aires
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Catamarca
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/ComodRivadavia
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Cordoba
+-rwxr-xr-x root/root              1119 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Jujuy
+-rwxr-xr-x root/root              1117 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/La_Rioja
+-rwxr-xr-x root/root              1147 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Mendoza
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Rio_Gallegos
+-rwxr-xr-x root/root              1075 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Salta
+-rwxr-xr-x root/root              1117 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/San_Juan
+-rwxr-xr-x root/root              1145 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/San_Luis
+-rwxr-xr-x root/root              1131 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Tucuman
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Argentina/Ushuaia
+-rwxr-xr-x root/root               194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Aruba
+-rwxr-xr-x root/root              2036 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Asuncion
+-rwxr-xr-x root/root               319 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Atikokan
+-rwxr-xr-x root/root              2339 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Atka
+-rwxr-xr-x root/root              1022 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Bahia
+-rwxr-xr-x root/root              1574 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Bahia_Banderas
+-rwxr-xr-x root/root               330 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Barbados
+-rwxr-xr-x root/root               574 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Belem
+-rwxr-xr-x root/root               962 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Belize
+-rwxr-xr-x root/root               281 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Blanc-Sablon
+-rwxr-xr-x root/root               630 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Boa_Vista
+-rwxr-xr-x root/root               231 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Bogota
+-rwxr-xr-x root/root              2377 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Boise
+-rwxr-xr-x root/root              1061 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Buenos_Aires
+-rwxr-xr-x root/root              2084 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cambridge_Bay
+-rwxr-xr-x root/root              2001 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Campo_Grande
+-rwxr-xr-x root/root               802 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cancun
+-rwxr-xr-x root/root               235 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Caracas
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Catamarca
+-rwxr-xr-x root/root               186 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cayenne
+-rwxr-xr-x root/root               177 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cayman
+-rwxr-xr-x root/root              3559 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Chicago
+-rwxr-xr-x root/root              1508 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Chihuahua
+-rwxr-xr-x root/root               319 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Coral_Harbour
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cordoba
+-rwxr-xr-x root/root               315 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Costa_Rica
+-rwxr-xr-x root/root               207 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Creston
+-rwxr-xr-x root/root              1973 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Cuiaba
+-rwxr-xr-x root/root               194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Curacao
+-rwxr-xr-x root/root               700 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Danmarkshavn
+-rwxr-xr-x root/root              2067 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Dawson
+-rwxr-xr-x root/root              1033 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Dawson_Creek
+-rwxr-xr-x root/root              2427 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Denver
+-rwxr-xr-x root/root              2202 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Detroit
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Dominica
+-rwxr-xr-x root/root              2388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Edmonton
+-rwxr-xr-x root/root               670 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Eirunepe
+-rwxr-xr-x root/root               236 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/El_Salvador
+-rwxr-xr-x root/root              2342 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Ensenada
+-rwxr-xr-x root/root              2223 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Fort_Nelson
+-rwxr-xr-x root/root              1649 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Fort_Wayne
+-rwxr-xr-x root/root               714 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Fortaleza
+-rwxr-xr-x root/root              2192 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Glace_Bay
+-rwxr-xr-x root/root              1863 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Godthab
+-rwxr-xr-x root/root              3193 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Goose_Bay
+-rwxr-xr-x root/root              1261 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Grand_Turk
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Grenada
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Guadeloupe
+-rwxr-xr-x root/root               292 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Guatemala
+-rwxr-xr-x root/root               177 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Guayaquil
+-rwxr-xr-x root/root               256 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Guyana
+-rwxr-xr-x root/root              3424 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Halifax
+-rwxr-xr-x root/root              2411 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Havana
+-rwxr-xr-x root/root               440 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Hermosillo
+drwxr-xr-x root/root               142 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/America/Indiana
+-rwxr-xr-x root/root              1649 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Indianapolis
+-rwxr-xr-x root/root              2411 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Knox
+-rwxr-xr-x root/root              1705 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Marengo
+-rwxr-xr-x root/root              1887 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Petersburg
+-rwxr-xr-x root/root              1709 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Tell_City
+-rwxr-xr-x root/root              1397 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Vevay
+-rwxr-xr-x root/root              1677 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Vincennes
+-rwxr-xr-x root/root              1761 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indiana/Winamac
+-rwxr-xr-x root/root              1649 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Indianapolis
+-rwxr-xr-x root/root              1914 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Inuvik
+-rwxr-xr-x root/root              2032 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Iqaluit
+-rwxr-xr-x root/root               481 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Jamaica
+-rwxr-xr-x root/root              1119 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Jujuy
+-rwxr-xr-x root/root              2336 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Juneau
+drwxr-xr-x root/root                51 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/America/Kentucky
+-rwxr-xr-x root/root              2755 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Kentucky/Louisville
+-rwxr-xr-x root/root              2335 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Kentucky/Monticello
+-rwxr-xr-x root/root              2411 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Knox_IN
+-rwxr-xr-x root/root               194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Kralendijk
+-rwxr-xr-x root/root               217 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/La_Paz
+-rwxr-xr-x root/root               395 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Lima
+-rwxr-xr-x root/root              2819 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Los_Angeles
+-rwxr-xr-x root/root              2755 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Louisville
+-rwxr-xr-x root/root               194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Lower_Princes
+-rwxr-xr-x root/root               742 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Maceio
+-rwxr-xr-x root/root               437 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Managua
+-rwxr-xr-x root/root               602 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Manaus
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Marigot
+-rwxr-xr-x root/root               231 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Martinique
+-rwxr-xr-x root/root              1402 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Matamoros
+-rwxr-xr-x root/root              1550 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Mazatlan
+-rwxr-xr-x root/root              1147 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Mendoza
+-rwxr-xr-x root/root              2257 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Menominee
+-rwxr-xr-x root/root              1442 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Merida
+-rwxr-xr-x root/root              1392 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Metlakatla
+-rwxr-xr-x root/root              1604 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Mexico_City
+-rwxr-xr-x root/root              1670 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Miquelon
+-rwxr-xr-x root/root              3137 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Moncton
+-rwxr-xr-x root/root              1402 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Monterrey
+-rwxr-xr-x root/root              1485 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Montevideo
+-rwxr-xr-x root/root              3477 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Montreal
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Montserrat
+-rwxr-xr-x root/root              2270 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Nassau
+-rwxr-xr-x root/root              3519 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/New_York
+-rwxr-xr-x root/root              2105 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Nipigon
+-rwxr-xr-x root/root              2350 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Nome
+-rwxr-xr-x root/root               714 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Noronha
+drwxr-xr-x root/root                60 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/America/North_Dakota
+-rwxr-xr-x root/root              2363 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/North_Dakota/Beulah
+-rwxr-xr-x root/root              2363 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/North_Dakota/Center
+-rwxr-xr-x root/root              2363 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/North_Dakota/New_Salem
+-rwxr-xr-x root/root              1508 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Ojinaga
+-rwxr-xr-x root/root               177 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Panama
+-rwxr-xr-x root/root              2094 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Pangnirtung
+-rwxr-xr-x root/root               294 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Paramaribo
+-rwxr-xr-x root/root               327 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Phoenix
+-rwxr-xr-x root/root               823 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Port-au-Prince
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Port_of_Spain
+-rwxr-xr-x root/root               642 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Porto_Acre
+-rwxr-xr-x root/root               574 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Porto_Velho
+-rwxr-xr-x root/root               229 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Puerto_Rico
+-rwxr-xr-x root/root              2105 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Rainy_River
+-rwxr-xr-x root/root              1916 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Rankin_Inlet
+-rwxr-xr-x root/root               714 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Recife
+-rwxr-xr-x root/root               980 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Regina
+-rwxr-xr-x root/root              1916 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Resolute
+-rwxr-xr-x root/root               642 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Rio_Branco
+-rwxr-xr-x root/root              1103 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Rosario
+-rwxr-xr-x root/root              2342 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Santa_Isabel
+-rwxr-xr-x root/root               612 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Santarem
+-rwxr-xr-x root/root              2489 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Santiago
+-rwxr-xr-x root/root               463 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Santo_Domingo
+-rwxr-xr-x root/root              2001 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Sao_Paulo
+-rwxr-xr-x root/root              1911 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Scoresbysund
+-rwxr-xr-x root/root              2427 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Shiprock
+-rwxr-xr-x root/root              2324 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Sitka
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Barthelemy
+-rwxr-xr-x root/root              3638 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Johns
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Kitts
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Lucia
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Thomas
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/St_Vincent
+-rwxr-xr-x root/root               560 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Swift_Current
+-rwxr-xr-x root/root               264 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Tegucigalpa
+-rwxr-xr-x root/root              1514 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Thule
+-rwxr-xr-x root/root              2185 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Thunder_Bay
+-rwxr-xr-x root/root              2342 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Tijuana
+-rwxr-xr-x root/root              3477 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Toronto
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Tortola
+-rwxr-xr-x root/root              2875 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Vancouver
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Virgin
+-rwxr-xr-x root/root              2067 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Whitehorse
+-rwxr-xr-x root/root              2865 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Winnipeg
+-rwxr-xr-x root/root              2288 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Yakutat
+-rwxr-xr-x root/root              1966 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/America/Yellowknife
+drwxr-xr-x root/root               196 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Antarctica
+-rwxr-xr-x root/root               286 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Casey
+-rwxr-xr-x root/root               283 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Davis
+-rwxr-xr-x root/root               188 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/DumontDUrville
+-rwxr-xr-x root/root              1508 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Macquarie
+-rwxr-xr-x root/root               197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Mawson
+-rwxr-xr-x root/root              2434 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/McMurdo
+-rwxr-xr-x root/root              2012 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Palmer
+-rwxr-xr-x root/root               158 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Rothera
+-rwxr-xr-x root/root              2434 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/South_Pole
+-rwxr-xr-x root/root               159 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Syowa
+-rwxr-xr-x root/root              1148 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Troll
+-rwxr-xr-x root/root               159 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Antarctica/Vostok
+drwxr-xr-x root/root                35 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Arctic
+-rwxr-xr-x root/root              2225 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Arctic/Longyearbyen
+drwxr-xr-x root/root              1531 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Asia
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Aden
+-rwxr-xr-x root/root              1003 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Almaty
+-rwxr-xr-x root/root              1863 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Amman
+-rwxr-xr-x root/root              1194 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Anadyr
+-rwxr-xr-x root/root               989 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Aqtau
+-rwxr-xr-x root/root              1019 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Aqtobe
+-rwxr-xr-x root/root               623 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ashgabat
+-rwxr-xr-x root/root               623 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ashkhabad
+-rwxr-xr-x root/root               989 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Atyrau
+-rwxr-xr-x root/root               962 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Baghdad
+-rwxr-xr-x root/root               195 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Bahrain
+-rwxr-xr-x root/root              1241 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Baku
+-rwxr-xr-x root/root               178 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Bangkok
+-rwxr-xr-x root/root              1227 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Barnaul
+-rwxr-xr-x root/root              2149 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Beirut
+-rwxr-xr-x root/root              1017 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Bishkek
+-rwxr-xr-x root/root               187 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Brunei
+-rwxr-xr-x root/root               265 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Calcutta
+-rwxr-xr-x root/root              1229 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Chita
+-rwxr-xr-x root/root              1571 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Choibalsan
+-rwxr-xr-x root/root               388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Chongqing
+-rwxr-xr-x root/root               388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Chungking
+-rwxr-xr-x root/root               373 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Colombo
+-rwxr-xr-x root/root               364 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Dacca
+-rwxr-xr-x root/root              2306 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Damascus
+-rwxr-xr-x root/root               364 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Dhaka
+-rwxr-xr-x root/root               295 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Dili
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Dubai
+-rwxr-xr-x root/root               593 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Dushanbe
+-rwxr-xr-x root/root              1417 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Famagusta
+-rwxr-xr-x root/root              2269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Gaza
+-rwxr-xr-x root/root               388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Harbin
+-rwxr-xr-x root/root              2297 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Hebron
+-rwxr-xr-x root/root               359 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ho_Chi_Minh
+-rwxr-xr-x root/root              1175 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Hong_Kong
+-rwxr-xr-x root/root              1499 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Hovd
+-rwxr-xr-x root/root              1236 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Irkutsk
+-rwxr-xr-x root/root              2126 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Istanbul
+-rwxr-xr-x root/root               344 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Jakarta
+-rwxr-xr-x root/root               227 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Jayapura
+-rwxr-xr-x root/root              2239 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Jerusalem
+-rwxr-xr-x root/root               173 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kabul
+-rwxr-xr-x root/root              1170 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kamchatka
+-rwxr-xr-x root/root               389 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Karachi
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kashgar
+-rwxr-xr-x root/root               198 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kathmandu
+-rwxr-xr-x root/root               198 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Katmandu
+-rwxr-xr-x root/root              1283 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Khandyga
+-rwxr-xr-x root/root               265 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kolkata
+-rwxr-xr-x root/root              1215 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Krasnoyarsk
+-rwxr-xr-x root/root               372 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kuala_Lumpur
+-rwxr-xr-x root/root               505 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kuching
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Kuwait
+-rwxr-xr-x root/root               781 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Macao
+-rwxr-xr-x root/root               781 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Macau
+-rwxr-xr-x root/root              1230 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Magadan
+-rwxr-xr-x root/root               266 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Makassar
+-rwxr-xr-x root/root               335 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Manila
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Muscat
+-rwxr-xr-x root/root              2002 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Nicosia
+-rwxr-xr-x root/root              1169 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Novokuznetsk
+-rwxr-xr-x root/root              1227 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Novosibirsk
+-rwxr-xr-x root/root              1215 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Omsk
+-rwxr-xr-x root/root              1003 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Oral
+-rwxr-xr-x root/root               178 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Phnom_Penh
+-rwxr-xr-x root/root               361 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Pontianak
+-rwxr-xr-x root/root               298 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Pyongyang
+-rwxr-xr-x root/root               195 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Qatar
+-rwxr-xr-x root/root              1019 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Qyzylorda
+-rwxr-xr-x root/root               259 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Rangoon
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Riyadh
+-rwxr-xr-x root/root               359 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Saigon
+-rwxr-xr-x root/root              1206 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Sakhalin
+-rwxr-xr-x root/root               591 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Samarkand
+-rwxr-xr-x root/root               557 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Seoul
+-rwxr-xr-x root/root               388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Shanghai
+-rwxr-xr-x root/root               402 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Singapore
+-rwxr-xr-x root/root              1216 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Srednekolymsk
+-rwxr-xr-x root/root               774 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Taipei
+-rwxr-xr-x root/root               607 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tashkent
+-rwxr-xr-x root/root              1040 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tbilisi
+-rwxr-xr-x root/root              1664 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tehran
+-rwxr-xr-x root/root              2239 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tel_Aviv
+-rwxr-xr-x root/root               195 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Thimbu
+-rwxr-xr-x root/root               195 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Thimphu
+-rwxr-xr-x root/root               333 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tokyo
+-rwxr-xr-x root/root              1227 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Tomsk
+-rwxr-xr-x root/root               266 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ujung_Pandang
+-rwxr-xr-x root/root              1499 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ulaanbaatar
+-rwxr-xr-x root/root              1499 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ulan_Bator
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Urumqi
+-rwxr-xr-x root/root              1262 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Ust-Nera
+-rwxr-xr-x root/root               178 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Vientiane
+-rwxr-xr-x root/root              1216 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Vladivostok
+-rwxr-xr-x root/root              1215 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Yakutsk
+-rwxr-xr-x root/root               259 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Yangon
+-rwxr-xr-x root/root              1253 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Yekaterinburg
+-rwxr-xr-x root/root              1171 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Asia/Yerevan
+drwxr-xr-x root/root               205 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Atlantic
+-rwxr-xr-x root/root              3462 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Azores
+-rwxr-xr-x root/root              1990 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Bermuda
+-rwxr-xr-x root/root              1899 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Canary
+-rwxr-xr-x root/root               240 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Cape_Verde
+-rwxr-xr-x root/root              1815 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Faeroe
+-rwxr-xr-x root/root              1815 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Faroe
+-rwxr-xr-x root/root              2225 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Jan_Mayen
+-rwxr-xr-x root/root              3452 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Madeira
+-rwxr-xr-x root/root              1176 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Reykjavik
+-rwxr-xr-x root/root               139 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/South_Georgia
+-rwxr-xr-x root/root               156 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/St_Helena
+-rwxr-xr-x root/root              1220 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Atlantic/Stanley
+drwxr-xr-x root/root               353 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Australia
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/ACT
+-rwxr-xr-x root/root              2216 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Adelaide
+-rwxr-xr-x root/root               426 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Brisbane
+-rwxr-xr-x root/root              2252 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Broken_Hill
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Canberra
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Currie
+-rwxr-xr-x root/root               301 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Darwin
+-rwxr-xr-x root/root               461 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Eucla
+-rwxr-xr-x root/root              2309 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Hobart
+-rwxr-xr-x root/root              1833 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/LHI
+-rwxr-xr-x root/root               496 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Lindeman
+-rwxr-xr-x root/root              1833 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Lord_Howe
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Melbourne
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/NSW
+-rwxr-xr-x root/root               301 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/North
+-rwxr-xr-x root/root               453 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Perth
+-rwxr-xr-x root/root               426 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Queensland
+-rwxr-xr-x root/root              2216 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/South
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Sydney
+-rwxr-xr-x root/root              2309 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Tasmania
+-rwxr-xr-x root/root              2197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Victoria
+-rwxr-xr-x root/root               453 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/West
+-rwxr-xr-x root/root              2252 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Australia/Yancowinna
+drwxr-xr-x root/root                68 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Brazil
+-rwxr-xr-x root/root               642 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Brazil/Acre
+-rwxr-xr-x root/root               714 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Brazil/DeNoronha
+-rwxr-xr-x root/root              2001 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Brazil/East
+-rwxr-xr-x root/root               602 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Brazil/West
+-rwxr-xr-x root/root              2102 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/CET
+-rwxr-xr-x root/root              2294 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/CST6CDT
+drwxr-xr-x root/root               170 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Canada
+-rwxr-xr-x root/root              3424 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Atlantic
+-rwxr-xr-x root/root              2865 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Central
+-rwxr-xr-x root/root               980 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/East-Saskatchewan
+-rwxr-xr-x root/root              3477 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Eastern
+-rwxr-xr-x root/root              2388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Mountain
+-rwxr-xr-x root/root              3638 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Newfoundland
+-rwxr-xr-x root/root              2875 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Pacific
+-rwxr-xr-x root/root               980 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Saskatchewan
+-rwxr-xr-x root/root              2067 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Canada/Yukon
+drwxr-xr-x root/root                54 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Chile
+-rwxr-xr-x root/root              2489 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Chile/Continental
+-rwxr-xr-x root/root              2199 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Chile/EasterIsland
+-rwxr-xr-x root/root              2411 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Cuba
+-rwxr-xr-x root/root              1876 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/EET
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/EST
+-rwxr-xr-x root/root              2294 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/EST5EDT
+-rwxr-xr-x root/root              1946 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Egypt
+-rwxr-xr-x root/root              3533 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Eire
+drwxr-xr-x root/root               478 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Etc
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+0
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+1
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+10
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+11
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+12
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+2
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+3
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+4
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+5
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+6
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+7
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+8
+-rwxr-xr-x root/root               120 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT+9
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-0
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-1
+-rwxr-xr-x root/root               122 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-10
+-rwxr-xr-x root/root               122 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-11
+-rwxr-xr-x root/root               122 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-12
+-rwxr-xr-x root/root               122 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-13
+-rwxr-xr-x root/root               122 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-14
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-2
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-3
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-4
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-5
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-6
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-7
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-8
+-rwxr-xr-x root/root               121 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT-9
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/GMT0
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/Greenwich
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/UCT
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/UTC
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/Universal
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Etc/Zulu
+drwxr-xr-x root/root               988 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Europe
+-rwxr-xr-x root/root              2917 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Amsterdam
+-rwxr-xr-x root/root              1725 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Andorra
+-rwxr-xr-x root/root              1169 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Astrakhan
+-rwxr-xr-x root/root              2245 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Athens
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Belfast
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Belgrade
+-rwxr-xr-x root/root              2309 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Berlin
+-rwxr-xr-x root/root              2246 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Bratislava
+-rwxr-xr-x root/root              2944 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Brussels
+-rwxr-xr-x root/root              2195 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Bucharest
+-rwxr-xr-x root/root              2379 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Budapest
+-rwxr-xr-x root/root              1892 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Busingen
+-rwxr-xr-x root/root              2419 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Chisinau
+-rwxr-xr-x root/root              2134 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Copenhagen
+-rwxr-xr-x root/root              3533 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Dublin
+-rwxr-xr-x root/root              3035 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Gibraltar
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Guernsey
+-rwxr-xr-x root/root              1883 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Helsinki
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Isle_of_Man
+-rwxr-xr-x root/root              2126 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Istanbul
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Jersey
+-rwxr-xr-x root/root              1492 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Kaliningrad
+-rwxr-xr-x root/root              2071 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Kiev
+-rwxr-xr-x root/root              1139 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Kirov
+-rwxr-xr-x root/root              3439 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Lisbon
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Ljubljana
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/London
+-rwxr-xr-x root/root              2960 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Luxembourg
+-rwxr-xr-x root/root              2593 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Madrid
+-rwxr-xr-x root/root              2603 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Malta
+-rwxr-xr-x root/root              1883 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Mariehamn
+-rwxr-xr-x root/root              1330 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Minsk
+-rwxr-xr-x root/root              2927 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Monaco
+-rwxr-xr-x root/root              1518 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Moscow
+-rwxr-xr-x root/root              2002 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Nicosia
+-rwxr-xr-x root/root              2225 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Oslo
+-rwxr-xr-x root/root              2945 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Paris
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Podgorica
+-rwxr-xr-x root/root              2246 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Prague
+-rwxr-xr-x root/root              2209 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Riga
+-rwxr-xr-x root/root              2666 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Rome
+-rwxr-xr-x root/root              1225 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Samara
+-rwxr-xr-x root/root              2666 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/San_Marino
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Sarajevo
+-rwxr-xr-x root/root              1169 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Saratov
+-rwxr-xr-x root/root              1464 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Simferopol
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Skopje
+-rwxr-xr-x root/root              2104 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Sofia
+-rwxr-xr-x root/root              1892 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Stockholm
+-rwxr-xr-x root/root              2161 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Tallinn
+-rwxr-xr-x root/root              2084 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Tirane
+-rwxr-xr-x root/root              2419 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Tiraspol
+-rwxr-xr-x root/root              1253 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Ulyanovsk
+-rwxr-xr-x root/root              2077 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Uzhgorod
+-rwxr-xr-x root/root              1892 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Vaduz
+-rwxr-xr-x root/root              2666 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Vatican
+-rwxr-xr-x root/root              2211 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Vienna
+-rwxr-xr-x root/root              2173 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Vilnius
+-rwxr-xr-x root/root              1139 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Volgograd
+-rwxr-xr-x root/root              2679 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Warsaw
+-rwxr-xr-x root/root              1931 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Zagreb
+-rwxr-xr-x root/root              2085 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Zaporozhye
+-rwxr-xr-x root/root              1892 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Europe/Zurich
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GB
+-rwxr-xr-x root/root              3661 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GB-Eire
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GMT
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GMT+0
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GMT-0
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/GMT0
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Greenwich
+-rwxr-xr-x root/root               119 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/HST
+-rwxr-xr-x root/root              1175 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Hongkong
+-rwxr-xr-x root/root              1176 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Iceland
+drwxr-xr-x root/root               185 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Indian
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Antananarivo
+-rwxr-xr-x root/root               187 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Chagos
+-rwxr-xr-x root/root               140 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Christmas
+-rwxr-xr-x root/root               143 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Cocos
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Comoro
+-rwxr-xr-x root/root               159 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Kerguelen
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Mahe
+-rwxr-xr-x root/root               178 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Maldives
+-rwxr-xr-x root/root               239 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Mauritius
+-rwxr-xr-x root/root               269 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Mayotte
+-rwxr-xr-x root/root               157 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Indian/Reunion
+-rwxr-xr-x root/root              1664 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Iran
+-rwxr-xr-x root/root              2239 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Israel
+-rwxr-xr-x root/root               481 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Jamaica
+-rwxr-xr-x root/root               333 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Japan
+-rwxr-xr-x root/root               211 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Kwajalein
+-rwxr-xr-x root/root               641 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Libya
+-rwxr-xr-x root/root              2102 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/MET
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/MST
+-rwxr-xr-x root/root              2294 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/MST7MDT
+drwxr-xr-x root/root                62 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Mexico
+-rwxr-xr-x root/root              2342 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Mexico/BajaNorte
+-rwxr-xr-x root/root              1550 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Mexico/BajaSur
+-rwxr-xr-x root/root              1604 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Mexico/General
+-rwxr-xr-x root/root              2434 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/NZ
+-rwxr-xr-x root/root              2031 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/NZ-CHAT
+-rwxr-xr-x root/root              2427 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Navajo
+-rwxr-xr-x root/root               388 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/PRC
+-rwxr-xr-x root/root              2294 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/PST8PDT
+drwxr-xr-x root/root               654 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/Pacific
+-rwxr-xr-x root/root              1080 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Apia
+-rwxr-xr-x root/root              2434 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Auckland
+-rwxr-xr-x root/root               253 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Bougainville
+-rwxr-xr-x root/root              2031 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Chatham
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Chuuk
+-rwxr-xr-x root/root              2199 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Easter
+-rwxr-xr-x root/root               464 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Efate
+-rwxr-xr-x root/root               204 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Enderbury
+-rwxr-xr-x root/root               171 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Fakaofo
+-rwxr-xr-x root/root              1059 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Fiji
+-rwxr-xr-x root/root               141 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Funafuti
+-rwxr-xr-x root/root               197 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Galapagos
+-rwxr-xr-x root/root               159 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Gambier
+-rwxr-xr-x root/root               158 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Guadalcanal
+-rwxr-xr-x root/root               199 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Guam
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Honolulu
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Johnston
+-rwxr-xr-x root/root               204 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Kiritimati
+-rwxr-xr-x root/root               204 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Kosrae
+-rwxr-xr-x root/root               211 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Kwajalein
+-rwxr-xr-x root/root               171 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Majuro
+-rwxr-xr-x root/root               162 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Marquesas
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Midway
+-rwxr-xr-x root/root               240 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Nauru
+-rwxr-xr-x root/root               200 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Niue
+-rwxr-xr-x root/root               263 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Norfolk
+-rwxr-xr-x root/root               300 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Noumea
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Pago_Pago
+-rwxr-xr-x root/root               140 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Palau
+-rwxr-xr-x root/root               177 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Pitcairn
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Pohnpei
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Ponape
+-rwxr-xr-x root/root               163 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Port_Moresby
+-rwxr-xr-x root/root               548 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Rarotonga
+-rwxr-xr-x root/root               199 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Saipan
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Samoa
+-rwxr-xr-x root/root               160 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Tahiti
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Tarawa
+-rwxr-xr-x root/root               949 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Tongatapu
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Truk
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Wake
+-rwxr-xr-x root/root               141 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Wallis
+-rwxr-xr-x root/root               144 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Pacific/Yap
+-rwxr-xr-x root/root              2679 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Poland
+-rwxr-xr-x root/root              3439 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Portugal
+-rwxr-xr-x root/root               774 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/ROC
+-rwxr-xr-x root/root               557 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/ROK
+-rwxr-xr-x root/root               402 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Singapore
+-rwxr-xr-x root/root              2126 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Turkey
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/UCT
+drwxr-xr-x root/root               225 2025-03-07 10:39 squashfs-root/usr/share/zoneinfo/US
+-rwxr-xr-x root/root              2358 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Alaska
+-rwxr-xr-x root/root              2339 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Aleutian
+-rwxr-xr-x root/root               327 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Arizona
+-rwxr-xr-x root/root              3559 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Central
+-rwxr-xr-x root/root              1649 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/East-Indiana
+-rwxr-xr-x root/root              3519 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Eastern
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Hawaii
+-rwxr-xr-x root/root              2411 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Indiana-Starke
+-rwxr-xr-x root/root              2202 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Michigan
+-rwxr-xr-x root/root              2427 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Mountain
+-rwxr-xr-x root/root              2819 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Pacific
+-rwxr-xr-x root/root              2819 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Pacific-New
+-rwxr-xr-x root/root               250 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/US/Samoa
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/UTC
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Universal
+-rwxr-xr-x root/root              1518 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/W-SU
+-rwxr-xr-x root/root              1873 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/WET
+-rwxr-xr-x root/root               118 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/Zulu
+-rwxr-xr-x root/root              4476 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/iso3166.tab
+-rwxr-xr-x root/root             19143 2025-03-07 10:20 squashfs-root/usr/share/zoneinfo/zone.tab
+drwxr-xr-x root/root                37 2025-03-07 10:20 squashfs-root/var
+drwxr-xr-x root/root                30 2025-03-07 10:20 squashfs-root/var/lib
+lrwxrwxrwx root/root                16 2025-03-07 10:20 squashfs-root/var/lib/dibbler -> /tmp/lib/dibbler
+drwxr-xr-x root/root                 3 2025-03-07 10:20 squashfs-root/var/run
