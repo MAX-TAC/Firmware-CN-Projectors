@@ -1,0 +1,58 @@
+{
+  "/system/priv-app/AutoFocus3": [
+    "package: name='com.zhiying.autofocus' versionCode='30086' versionName='30.0.86' platformBuildVersionName='9' platformBuildVersionCode='28' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'28'",
+    "targetSdkVersion:'28'",
+    "application-label:'AutoKeyStoneCorrect'"
+  ],
+  "/system/priv-app/ZYSetting": [
+    "package: name='com.zhiying.settings' versionCode='2771' versionName='2771'",
+    "sdkVersion:'19'",
+    "targetSdkVersion:'22'",
+    "application-label:'TVSetting'"
+  ],
+  "/system/priv-app/TvSettingsPlus": [
+    "package: name='com.android.tv.settings' versionCode='2' versionName='1.2' platformBuildVersionCode='2' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'23'",
+    "targetSdkVersion:'28'",
+    "application-label:'Settings'"
+  ],
+  "/system/app/ZYCustomUI": [
+    "package: name='com.zhiying.sourceui' versionCode='42' versionName='1.0' platformBuildVersionName='9' platformBuildVersionCode='28' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'26'",
+    "targetSdkVersion:'26'",
+    "application-label:'SOURCE'"
+  ],
+  "/system/app/NLHotkeyService": [
+    "package: name='com.newlink.hotkeysservices' versionCode='30' versionName='30' platformBuildVersionName='9' platformBuildVersionCode='28' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'16'",
+    "targetSdkVersion:'23'",
+    "application-label:'NLHotkeysServices'"
+  ],
+  "/system/app/ZYYTBLauncher": [
+    "package: name='com.zhiying.ytb.zy.tv' versionCode='137' versionName='1.3.7' platformBuildVersionName='9' platformBuildVersionCode='28' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'19'",
+    "targetSdkVersion:'28'",
+    "application-label:'YTB_ZY_TV'",
+    "launchable-activity: name='com.zhiying.ytb.zy.tv.activity.MainActivity'  label='' icon=''"
+  ],
+  "/system/app/NLTvTestingTools": [
+    "package: name='com.newlink.tvtestingtools' versionCode='100' versionName='100' platformBuildVersionName='9' platformBuildVersionCode='28' compileSdkVersion='28' compileSdkVersionCodename='9'",
+    "sdkVersion:'21'",
+    "targetSdkVersion:'28'",
+    "application-label:'TVTestingTools'"
+  ],
+  "/system/app/NLAutoTest": [
+    "package: name='com.newlink.autotest' versionCode='7' versionName='1.7' platformBuildVersionName='12' platformBuildVersionCode='32' compileSdkVersion='32' compileSdkVersionCodename='12'",
+    "sdkVersion:'28'",
+    "targetSdkVersion:'32'",
+    "application-label:'AutoTest'"
+  ],
+  "/system/app/ZYFileManager": [
+    "package: name='com.newlink.filemanager' versionCode='90' versionName='6.94' platformBuildVersionName='10' platformBuildVersionCode='29' compileSdkVersion='29' compileSdkVersionCodename='10'",
+    "sdkVersion:'17'",
+    "targetSdkVersion:'23'",
+    "application-label:'File Manager'",
+    "launchable-activity: name='com.newlink.filemanager.activity.SelectActivity'  label='' icon=''"
+  ]
+}
