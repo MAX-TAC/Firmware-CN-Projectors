@@ -1,0 +1,63 @@
+name: Deep ET32 APK and service audit
+
+on:
+  push:
+    paths:
+      - ".github/workflows/deep_et32_audit.yml"
+      - "tools/deep_et32_audit.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install inspection utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq aapt apktool e2fsprogs zstd openjdk-17-jre-headless binutils file unzip
+          mkdir -p /opt/jadx
+          curl -fL --retry 3 "https://github.com/skylot/jadx/releases/download/v1.5.3/jadx-1.5.3.zip" -o /tmp/jadx.zip
+          unzip -q /tmp/jadx.zip -d /opt/jadx
+          chmod +x /opt/jadx/bin/jadx
+          /opt/jadx/bin/jadx --version
+      - name: Download verified unpacked Android partitions
+        run: |
+          curl -fL --retry 4 --retry-delay 5 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32-unpacked/ET32-system.ext4.zst" -o /tmp/system.ext4.zst
+          curl -fL --retry 4 --retry-delay 5 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32-unpacked/ET32-vendor.ext4.zst" -o /tmp/vendor.ext4.zst
+          curl -fL --retry 4 --retry-delay 5 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32-unpacked/SHA256SUMS.txt" -o /tmp/ET32_SHA256SUMS.txt
+          cd /tmp
+          cp system.ext4.zst ET32-system.ext4.zst
+          cp vendor.ext4.zst ET32-vendor.ext4.zst
+          sha256sum -c ET32_SHA256SUMS.txt
+          zstd -d -q ET32-system.ext4.zst -o et32-system.ext4
+          zstd -d -q ET32-vendor.ext4.zst -o et32-vendor.ext4
+      - name: Decode firmware APKs and inspect native services
+        run: |
+          python3 tools/deep_et32_audit.py
+      - name: Commit bounded text reports
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/ET32/deep/
+          if ! git diff --cached --quiet; then
+            git commit -m "Report ET32 system APK and service static audit"
+            git pull --rebase origin main
+            git push origin main
+          fi
+      - name: Save report as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: et32-deep-audit
+          path: analysis/ET32/deep/
+          retention-days: 30
+          if-no-files-found: warn
