@@ -1,0 +1,50 @@
+name: Inspect ET32 projector components
+
+on:
+  push:
+    paths:
+      - ".github/workflows/projector_et32_audit.yml"
+      - "tools/projector_et32_audit.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install analysis utilities
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq e2fsprogs aapt
+      - name: Download original firmware
+        run: |
+          curl -fL --retry 4 --retry-delay 5 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32/YG_6M046.zip" \
+            -o /tmp/YG_6M046.zip
+          echo "df02237175428f2cede2290557f6de2cad2362a640e63c350816cf4ad40e586b  /tmp/YG_6M046.zip" | sha256sum --check
+      - name: Reconstruct images for inspection
+        run: python3 tools/reassemble_et32.py /tmp/YG_6M046.zip
+      - name: Inspect projector services and application metadata
+        run: python3 tools/projector_et32_audit.py
+      - name: Commit text reports
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/ET32/projector_components.md analysis/ET32/projector_apk_metadata.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Add focused ET32 projector-control analysis"
+            git push
+          fi
+      - name: Save analysis artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: et32-projector-review
+          path: |
+            analysis/ET32/projector_components.md
+            analysis/ET32/projector_apk_metadata.json
+          retention-days: 30
