@@ -1,0 +1,16 @@
+/145/040755/0/2000/.//
+/14/040755/0/2000/..//
+/146/100644/0/0/libs_permissions.xml/1300/
+/147/100644/0/0/android.hardware.bluetooth.xml/820/
+/148/100644/0/0/android.software.companion_device_setup.xml/763/
+/149/100644/0/0/android.hardware.opengles.aep.xml/870/
+/150/100644/0/0/com.mstar.android.xml/172/
+/151/100644/0/0/mtv_core_hardware.xml/2121/
+/152/100644/0/0/android.hardware.vulkan.compute.xml/866/
+/153/100644/0/0/camera_features.xml/872/
+/154/100644/0/0/android.hardware.hdmi.cec.xml/834/
+/155/100644/0/0/android.hardware.vulkan.level.xml/865/
+/156/100644/0/0/android.hardware.gamepad.xml/871/
+/157/100644/0/0/android.hardware.vulkan.version.xml/902/
+/158/100644/0/0/android.hardware.bluetooth_le.xml/830/
+

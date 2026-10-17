@@ -1,0 +1,49 @@
+Filesystem volume name:   vendor
+Last mounted on:          <not available>
+Filesystem UUID:          a9113cd5-00de-58a2-a18c-488f7bb482ca
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      ext_attr resize_inode dir_index filetype extent flex_bg sparse_super large_file huge_file uninit_bg dir_nlink extra_isize
+Filesystem flags:         signed_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              89664
+Block count:              89600
+Reserved block count:     0
+Free blocks:              22308
+Free inodes:              88884
+First block:              0
+Block size:               4096
+Fragment size:            4096
+Reserved GDT blocks:      21
+Blocks per group:         32768
+Fragments per group:      32768
+Inodes per group:         29888
+Inode blocks per group:   934
+Flex block group size:    16
+Filesystem created:       Wed Dec 31 16:00:00 2008
+Last mount time:          n/a
+Last write time:          Wed Dec 31 16:00:00 2008
+Mount count:              0
+Maximum mount count:      -1
+Last checked:             Wed Dec 31 16:00:00 2008
+Check interval:           0 (<none>)
+Lifetime writes:          1 kB
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          128
+Default directory hash:   half_md4
+Directory Hash Seed:      87dbe936-7bb8-566f-a3c1-866468f29379
+Directories:              56
+ Group  0: block bitmap at 23, inode bitmap at 26, inode table at 29
+           0 free blocks, 29108 free inodes, 56 used directories, 29108 unused inodes
+           [Checksum 0x7b5f]
+ Group  1: block bitmap at 24, inode bitmap at 27, inode table at 963
+           0 free blocks, 29888 free inodes, 0 used directories, 29888 unused inodes
+           [Inode not init, Checksum 0x6bec]
+ Group  2: block bitmap at 25, inode bitmap at 28, inode table at 1897
+           22308 free blocks, 29888 free inodes, 0 used directories, 29888 unused inodes
+           [Inode not init, Checksum 0x6102]

@@ -1,0 +1,14 @@
+{
+  "ro.build.display.id": "mt5862_bga_1g-userdebug 9 PPR2.180905.006.A1 TVOS-04.16.031.01.12 dev-keys",
+  "ro.build.version.sdk": "28",
+  "ro.build.version.release": "9",
+  "ro.build.version.security_patch": "2021-01-05",
+  "ro.build.date": "Fri Mar  7 18:42:13 CST 2025",
+  "ro.build.type": "userdebug",
+  "ro.build.tags": "dev-keys",
+  "ro.product.model": "NL_MTK9255_D1E8",
+  "ro.product.brand": "MediaTek",
+  "ro.product.device": "mt5862_bga_1g",
+  "ro.product.manufacturer": "MediaTek",
+  "ro.build.fingerprint": "MStar/eng_wwt/eng_wwt:4.4.4/KTU84P/2.0.13:userdebug/test-keys"
+}
