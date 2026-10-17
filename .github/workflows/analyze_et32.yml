@@ -1,0 +1,50 @@
+name: Inspect Touyinger ET32 firmware
+
+on:
+  push:
+    paths:
+      - ".github/workflows/analyze_et32.yml"
+      - "tools/analyze_et32.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - name: Checkout analysis repository
+        uses: actions/checkout@v4
+      - name: Install read-only inspection tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq file binwalk
+      - name: Download original release asset
+        run: |
+          curl -fL --retry 4 --retry-delay 5 --connect-timeout 30 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32/YG_6M046.zip" \
+            -o /tmp/YG_6M046.zip
+          echo "df02237175428f2cede2290557f6de2cad2362a640e63c350816cf4ad40e586b  /tmp/YG_6M046.zip" | sha256sum --check
+      - name: Inspect the ZIP and its firmware components
+        run: |
+          python3 tools/analyze_et32.py /tmp/YG_6M046.zip
+      - name: Commit small text reports
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/ET32/
+          if ! git diff --cached --quiet; then
+            git commit -m "Add ET32 archive and firmware structure report"
+            git push
+          fi
+      - name: Save reports as CI artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: et32-analysis
+          path: analysis/ET32/
+          if-no-files-found: warn
+          retention-days: 30
