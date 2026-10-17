@@ -51,9 +51,34 @@ jobs:
           dest.write_text('\n'.join(texts)+'\n',encoding='utf-8')
           print(dest.read_text()[:14000])
           PY
+      - name: Inspect CGI executable without running
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess,re
+          p=Path("/tmp/et32-test.cgi")
+          call=subprocess.run(["debugfs","-R","dump -p /bin/cgi-bin/test.cgi "+str(p),"/tmp/et32-vendor.ext4"],capture_output=True,text=True)
+          report=["# ET32 test.cgi static inspection","No program execution."]
+          if p.exists():
+              for cmd in (["file",str(p)],["strings","-a","-n","4",str(p)]):
+                  r=subprocess.run(cmd,capture_output=True,text=True,errors="replace")
+                  report.append("## "+" ".join(cmd[:1]))
+                  lines=r.stdout.splitlines()
+                  for line in lines[:160]:
+                      if re.search(r"password|secret|token|key=|certificate|private|serial",line,re.I):continue
+                      report.append(line[:250])
+              if p.stat().st_size<30000:
+                  b=p.read_bytes()
+                  if b.startswith(b"#!"):
+                      report.append("## Script content")
+                      report.append(b.decode("utf8","replace")[:8000])
+          else:report.append("extraction error: "+call.stderr)
+          Path("analysis/ET32/deep/boa_cgi.md").write_text("\n".join(report)+"\n",encoding="utf8")
+          print("\n".join(report)[:11000])
+          PY
       - name: Commit inspection report
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add analysis/ET32/deep/boa_config.md
+          git add analysis/ET32/deep/boa_config.md analysis/ET32/deep/boa_cgi.md
           git diff --cached --quiet || (git commit -m "Inspect embedded ET32 web server startup" && git pull --rebase origin main && git push origin main)
