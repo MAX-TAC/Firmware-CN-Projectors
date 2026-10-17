@@ -1,0 +1,49 @@
+name: Extract ET32 partitions
+
+on:
+  push:
+    paths:
+      - ".github/workflows/extract_et32.yml"
+      - "tools/extract_et32.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install filesystem tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq squashfs-tools e2fsprogs
+          sudo apt-get install -y -qq android-sdk-libsparse-utils || true
+      - name: Download and verify source
+        run: |
+          curl -fL --retry 4 --retry-delay 5 \
+            "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32/YG_6M046.zip" \
+            -o /tmp/YG_6M046.zip
+          echo "df02237175428f2cede2290557f6de2cad2362a640e63c350816cf4ad40e586b  /tmp/YG_6M046.zip" | sha256sum --check
+      - name: Parse partition operations and extract rootfs metadata
+        run: |
+          python3 tools/extract_et32.py /tmp/YG_6M046.zip
+      - name: Commit text and JSON reports
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/ET32/
+          if ! git diff --cached --quiet; then
+            git commit -m "Document ET32 partition map and rootfs"
+            git push
+          fi
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: et32-partition-details
+          path: analysis/ET32/
+          retention-days: 30
