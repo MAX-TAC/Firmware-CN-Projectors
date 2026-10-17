@@ -46,3 +46,30 @@ jobs:
           name: et32-android-audit
           path: analysis/ET32/
           retention-days: 30
+
+
+      - name: Compress reconstructed Android images
+        if: success()
+        run: |
+          sudo apt-get install -y -qq zstd
+          mkdir -p /tmp/et32-release
+          zstd -T2 -4 -q -f /tmp/et32-system.ext4 -o /tmp/et32-release/ET32-system.ext4.zst
+          zstd -T2 -4 -q -f /tmp/et32-vendor.ext4 -o /tmp/et32-release/ET32-vendor.ext4.zst
+          cd /tmp/et32-release
+          for f in *.zst; do
+            bytes=$(stat -c%s "$f")
+            if [ "$bytes" -gt 1900000000 ]; then
+              split -b 1700000000 -d -a 3 "$f" "$f.part"
+              rm "$f"
+            fi
+          done
+          sha256sum ET32-* > SHA256SUMS.txt
+          ls -lah
+      - name: Publish reconstructed files as GitHub release assets
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG=Touyinger-ET32-unpacked
+          gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --target "$GITHUB_SHA" --title "Touyinger ET32 extracted partitions" --notes "Recovered system and vendor ext4 files from YG_6M046.bin (MStarBinTool-GUI image). SHA256SUMS included. Assets may be split into numbered parts to respect the GitHub 2 GiB asset size limit. For split files: cat filename.part* > filename; then zstd -d filename.zst."
+          gh release upload "$TAG" /tmp/et32-release/* --clobber
