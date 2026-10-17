@@ -5,7 +5,7 @@ This is a modified MStar update image, not necessarily the original factory firm
 
 ## Recovered Android images
 
-Download from [Touyinger-ET32-unpacked](../../releases/tag/Touyinger-ET32-unpacked):
+Download from [Touyinger-ET32-unpacked](https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/tag/Touyinger-ET32-unpacked):
 
 - ET32-system.ext4.zst — complete reassembled Android system image (logical size 2,646,605,824 bytes).
 - ET32-vendor.ext4.zst — complete reassembled vendor image (logical size 367,001,600 bytes).
