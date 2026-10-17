@@ -1,0 +1,59 @@
+name: Inspect ET32 embedded HTTP service
+
+on:
+  push:
+    paths:
+      - ".github/workflows/boa_et32_audit.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq e2fsprogs zstd
+      - name: Verify and decompress vendor
+        run: |
+          curl -fL --retry 4 --retry-delay 5 "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32-unpacked/ET32-vendor.ext4.zst" -o /tmp/ET32-vendor.ext4.zst
+          curl -fL --retry 4 "https://github.com/MAX-TAC/Firmware-CN-Projectors/releases/download/Touyinger-ET32-unpacked/SHA256SUMS.txt" -o /tmp/SHA256SUMS.txt
+          cd /tmp
+          grep 'ET32-vendor.ext4.zst' SHA256SUMS.txt | sha256sum -c
+          zstd -d -q ET32-vendor.ext4.zst -o et32-vendor.ext4
+      - name: Inspect startup and web server configuration
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import re,subprocess
+          image='/tmp/et32-vendor.ext4'
+          dest=Path('analysis/ET32/deep/boa_config.md')
+          dest.parent.mkdir(parents=True,exist_ok=True)
+          def query(command):
+              p=subprocess.run(['debugfs','-R',command,image],capture_output=True,text=True,errors='replace')
+              return p.stdout if p.returncode==0 else ''
+          texts=['# Embedded Boa HTTP server inspection','Static files only; does not prove network reachability.']
+          for path in ('/etc/init/boa-service.rc','/etc/boa/boa.conf','/etc/boa/boa.conf.default','/etc/boa/mime.types'):
+              result=query('cat '+path)
+              if result:
+                  texts.append('## '+path)
+                  for line in result.splitlines():
+                      if re.search('password|secret|credential|certificate|private.?key|auth.*token',line,re.I):
+                          continue
+                      if path.endswith('mime.types'): continue
+                      texts.append(line[:280])
+          for path in ('/etc/boa','/bin/cgi-bin'):
+              texts.append('## '+path+' — listing')
+              out=query('ls -p '+path)
+              texts+=out.splitlines()[:120]
+          dest.write_text('\n'.join(texts)+'\n',encoding='utf-8')
+          print(dest.read_text()[:14000])
+          PY
+      - name: Commit inspection report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add analysis/ET32/deep/boa_config.md
+          git diff --cached --quiet || (git commit -m "Inspect embedded ET32 web server startup" && git pull --rebase origin main && git push origin main)
